@@ -48,17 +48,17 @@ function fetchGitHubActivity() {
 
 function formatActivity(events) {
   if (!events || !events.length) {
-    return '  No recent public activity found.\n';
+    return '| Timestamp | CLI Command / Activity |\n| :--- | :--- |\n| `[n/a]` | `echo "No recent activity detected."` |\n';
   }
 
-  // Filter and take first 5 relevant events
   const activityLines = [];
   let count = 0;
 
   for (const event of events) {
     if (count >= 5) break;
 
-    const timeString = new Date(event.created_at).toLocaleDateString('en-US', {
+    const date = new Date(event.created_at);
+    const timeString = date.toLocaleDateString('en-US', {
       month: 'short',
       day: 'numeric',
       year: 'numeric'
@@ -71,29 +71,35 @@ function formatActivity(events) {
       case 'PushEvent':
         const commitCount = event.payload.commits ? event.payload.commits.length : 0;
         if (commitCount === 0) continue;
-        const commitMsg = event.payload.commits[0].message.split('\n')[0];
-        const plural = commitCount > 1 ? 's' : '';
-        message = `📝 Pushed ${commitCount} commit${plural} to \`${repoName}\` - *"${commitMsg}"*`;
+        const commitMsg = event.payload.commits[0].message.split('\n')[0].replace(/"/g, '\\"');
+        const branch = event.payload.ref.replace('refs/heads/', '');
+        message = `\`git push origin ${branch}\` <br> _↳ commit: "${commitMsg}" (${commitCount} total)_`;
         break;
       case 'CreateEvent':
         const refType = event.payload.ref_type;
-        message = `🆕 Created ${refType} \`${event.payload.ref || repoName}\` in repository`;
+        if (refType === 'repository') {
+          message = `\`git init ${repoName}\` <br> _↳ Initialized new repository_`;
+        } else {
+          const ref = event.payload.ref;
+          message = `\`git checkout -b ${ref}\` <br> _↳ Created ${refType} in ${repoName}_`;
+        }
         break;
       case 'PullRequestEvent':
         const prAction = event.payload.action;
-        const prTitle = event.payload.pull_request.title;
-        message = `🔀 ${prAction.charAt(0).toUpperCase() + prAction.slice(1)} Pull Request in \`${repoName}\` - *"${prTitle}"*`;
+        const prNum = event.payload.number;
+        const prTitle = event.payload.pull_request.title.replace(/"/g, '\\"');
+        message = `\`gh pr ${prAction === 'closed' ? 'close' : prAction} #${prNum}\` <br> _↳ "${prTitle}" in ${repoName}_`;
         break;
       case 'IssuesEvent':
         const issueAction = event.payload.action;
-        const issueTitle = event.payload.issue.title;
-        message = `🐛 ${issueAction.charAt(0).toUpperCase() + issueAction.slice(1)} issue in \`${repoName}\` - *"${issueTitle}"*`;
+        const issueNum = event.payload.issue.number;
+        const issueTitle = event.payload.issue.title.replace(/"/g, '\\"');
+        message = `\`gh issue ${issueAction} #${issueNum}\` <br> _↳ "${issueTitle}" in ${repoName}_`;
         break;
       case 'WatchEvent':
-        message = `⭐ Starred repository \`${event.repo.name}\``;
+        message = `\`gh repo fork ${event.repo.name}\` <br> _↳ Starred and tracked project_`;
         break;
       default:
-        // Skip uninteresting event types
         continue;
     }
 
@@ -102,11 +108,11 @@ function formatActivity(events) {
   }
 
   if (activityLines.length === 0) {
-    return '| Date | Activity Log |\n| :--- | :--- |\n| - | No recent public commits or activities |';
+    return '| Timestamp | CLI Command / Activity |\n| :--- | :--- |\n| `[n/a]` | `echo "No recent git/gh events."` |';
   }
 
   return [
-    '| Timestamp | Activity Detail |',
+    '| Timestamp | CLI Command / Activity |',
     '| :--- | :--- |',
     ...activityLines
   ].join('\n');
