@@ -65,20 +65,47 @@
 <h2 id="whoami">⚡ Who Am I</h2>
 
 ```bash
-vishnu@developer:~$ cat profile.json
+vishnu@developer:~$ cat VishnuProfile.java
 ```
 
-```json
-{
-  "name": "Vishnu Vardhan Uppari",
-  "role": "Full Stack & Java Backend Developer",
-  "philosophy": "I build production-ready software that scales.",
-  "strengths": [
-    "Backend Microservices & REST API Design",
-    "Database Architecture & Query Optimization",
-    "Modern Frontends with Fluid Interfaces",
-    "AI Integration Pipelines"
-  ]
+```java
+import java.util.List;
+
+public record VishnuProfile(
+    String name,
+    String education,
+    String careerGoal,
+    List<String> coreStack,
+    List<String> databases,
+    List<String> technologies,
+    List<String> currentProjects,
+    List<String> currentlyLearning,
+    String engineeringPrinciple
+) {
+    public static VishnuProfile get() {
+        return new VishnuProfile(
+            "Vishnu Vardhan Uppari",
+            "B.Tech in Information Technology",
+            "Software Engineer",
+            List.of("Java", "Spring Boot", "React", "Node.js"),
+            List.of("PostgreSQL", "MySQL"),
+            List.of("Docker", "Git", "GitHub", "REST APIs"),
+            List.of(
+                "ExpenseIQ (Expense Analytics Dashboard)",
+                "SkillMatrix LMS (Learning Management Backend)",
+                "Tulja Bhavani Travels ERP (Enterprise Resource System)",
+                "Binance Futures Trading Bot (Algorithmic Telemetry)"
+            ),
+            List.of(
+                "System Design",
+                "Backend Scalability",
+                "Cloud Computing",
+                "Software Architecture",
+                "AI-assisted Applications"
+            ),
+            "Good architecture should simplify future extension and maintenance."
+        );
+    }
 }
 ```
 
@@ -86,35 +113,94 @@ vishnu@developer:~$ cat profile.json
 
 <h2 id="current-focus">🎯 Current Focus</h2>
 
-> [!NOTE]
-> I am currently designing modular backend engines using **Spring Boot**, integrating them with conversational **AI agents**, and containerizing architectures via **Docker** to achieve seamless local-to-cloud workflows.
+```bash
+vishnu@developer:~$ cat focus_dashboard.conf
+```
+
+```yaml
+[CURRENTLY_BUILDING]
+  ExpenseIQ                  : Personal finance analytics engine utilizing Spring Boot REST services.
+  SkillMatrix LMS            : Backend REST APIs for tracking modular learning management courses.
+  Tulja Bhavani Travels ERP  : Business resource engine managing travel fleet logistics and state.
+  Binance Futures Bot        : Automated trading order system integrating real-time API telemetry.
+
+[CURRENT_ENGINEERING_FOCUS]
+  Architecture : Java enterprise architecture, Spring Boot, REST APIs, Microservices
+  Front/Back   : Full-stack integration, React SPA components, Node.js API logic
+  Databases    : Query optimization, schema index design in PostgreSQL & MySQL
+  DevOps       : Containerization and multi-stage build workflows using Docker
+
+[CURRENTLY_LEARNING]
+  Systems      : Distributed System Design and scalability patterns
+  Deployment   : Cloud Computing foundations and container orchestration
+  Pipelines    : CI/CD testing frameworks and automated deployment scripts
+
+[NEXT_GOALS]
+  Backend      : Maximize API throughput and improve system scalability
+  Engineering  : Build production-grade architectures and prepare for SWE roles
+```
 
 ---
 
-<h2 id="tech-stack">🛠️ Tech Stack Matrix</h2>
+<h2 id="tech-stack">🛠️ Engineering Capability Matrix</h2>
 
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
-      <h4>Backend &amp; Core</h4>
-      <img src="https://img.shields.io/badge/Java_17+-1E293B?style=flat-square&logo=openjdk&logoColor=3B82F6" alt="Java" /><br/>
-      <img src="https://img.shields.io/badge/Spring_Boot-1E293B?style=flat-square&logo=springboot&logoColor=10B981" alt="Spring Boot" /><br/>
-      <img src="https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" /><br/>
-      <img src="https://img.shields.io/badge/REST_APIs-1E293B?style=flat-square&logo=insomnia&logoColor=F3F4F6" alt="REST APIs" />
+      <h3>💻 Languages</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Java-1E293B?style=flat-square&logo=openjdk&logoColor=3B82F6" alt="Java" /><br/>
+        <img src="https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
+        <img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/SQL-1E293B?style=flat-square&logo=databricks&logoColor=white" alt="SQL" />
+      </p>
+      <h3>⚙️ Backend</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Spring_Boot-1E293B?style=flat-square&logo=springboot&logoColor=10B981" alt="Spring Boot" /><br/>
+        <img src="https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" /><br/>
+        <img src="https://img.shields.io/badge/Express.js-1E293B?style=flat-square&logo=express&logoColor=white" alt="Express.js" /><br/>
+        <img src="https://img.shields.io/badge/REST_APIs-1E293B?style=flat-square&logo=insomnia&logoColor=F3F4F6" alt="REST APIs" /><br/>
+        <img src="https://img.shields.io/badge/JWT_Auth-1E293B?style=flat-square&logo=jsonwebtokens&logoColor=d63aff" alt="JWT Auth" />
+      </p>
     </td>
     <td width="33%" valign="top">
-      <h4>Frontend &amp; Design</h4>
-      <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=60A5FA" alt="React" /><br/>
-      <img src="https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
-      <img src="https://img.shields.io/badge/HTML5_/_CSS3-1E293B?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5 / CSS3" /><br/>
-      <img src="https://img.shields.io/badge/UI_/_UX_Design-1E293B?style=flat-square&logo=figma&logoColor=F24E1E" alt="UI Design" />
+      <h3>🎨 Frontend</h3>
+      <p>
+        <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=60A5FA" alt="React" /><br/>
+        <img src="https://img.shields.io/badge/HTML5-1E293B?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" /><br/>
+        <img src="https://img.shields.io/badge/CSS3-1E293B?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" /><br/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-1E293B?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" /><br/>
+        <img src="https://img.shields.io/badge/Responsive_UI-1E293B?style=flat-square&logo=googlechrome&logoColor=white" alt="Responsive UI" />
+      </p>
+      <h3>💾 Databases</h3>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-1E293B?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" /><br/>
+        <img src="https://img.shields.io/badge/MySQL-1E293B?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" /><br/>
+        <img src="https://img.shields.io/badge/Prisma_ORM-1E293B?style=flat-square&logo=prisma&logoColor=2D3748" alt="Prisma ORM" />
+      </p>
     </td>
     <td width="33%" valign="top">
-      <h4>DevOps &amp; Tools</h4>
-      <img src="https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" /><br/>
-      <img src="https://img.shields.io/badge/Git_/_GitHub-1E293B?style=flat-square&logo=git&logoColor=F05032" alt="Git" /><br/>
-      <img src="https://img.shields.io/badge/Database_Design-1E293B?style=flat-square&logo=databricks&logoColor=FF3621" alt="Database Design" /><br/>
-      <img src="https://img.shields.io/badge/AI_Integrations-1E293B?style=flat-square&logo=googlebard&logoColor=a855f7" alt="AI Integrations" />
+      <h3>🔧 DevOps</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" /><br/>
+        <img src="https://img.shields.io/badge/Git-1E293B?style=flat-square&logo=git&logoColor=F05032" alt="Git" /><br/>
+        <img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" /><br/>
+        <img src="https://img.shields.io/badge/GitHub_Actions-1E293B?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+      </p>
+      <h3>🛠️ Developer Tools</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Postman-1E293B?style=flat-square&logo=postman&logoColor=FF6C37" alt="Postman" /><br/>
+        <img src="https://img.shields.io/badge/VS_Code-1E293B?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" /><br/>
+        <img src="https://img.shields.io/badge/IntelliJ_IDEA-1E293B?style=flat-square&logo=intellijidea&logoColor=FE315D" alt="IntelliJ IDEA" />
+      </p>
+      <h3>🚀 Exploring</h3>
+      <p>
+        <img src="https://img.shields.io/badge/System_Design-1E293B?style=flat-square&logo=diagramsdotnet&logoColor=white" alt="System Design" /><br/>
+        <img src="https://img.shields.io/badge/Software_Architecture-1E293B?style=flat-square&logo=gitbook&logoColor=white" alt="Software Architecture" /><br/>
+        <img src="https://img.shields.io/badge/Cloud_Deployment-1E293B?style=flat-square&logo=googlecloud&logoColor=white" alt="Cloud Deployment" /><br/>
+        <img src="https://img.shields.io/badge/CI%2FCD-1E293B?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" /><br/>
+        <img src="https://img.shields.io/badge/AI_Assisted_Dev-1E293B?style=flat-square&logo=googlebard&logoColor=a855f7" alt="AI Assisted Dev" />
+      </p>
     </td>
   </tr>
 </table>
