@@ -5,15 +5,37 @@
       <stop offset="0%" stop-color="#58A6FF" />
       <stop offset="100%" stop-color="#A970FF" />
     </linearGradient>
+
+    <style>
+      .wave-back {
+        animation: move-back 24s linear infinite;
+      }
+      .wave-front {
+        animation: move-front 14s linear infinite;
+      }
+
+      @keyframes move-back {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-800px); }
+      }
+      @keyframes move-front {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-800px); }
+      }
+    </style>
   </defs>
 
-  <!-- Background Wave (Darker Overlay for depth) -->
-  <path d="M 0,0 L 800,0 L 800,165 C 690,135 580,195 400,175 C 220,155 110,185 0,155 Z" fill="#A970FF" opacity="0.25" />
+  <!-- Animated Background Wave Group (Parallax effect) -->
+  <g class="wave-back">
+    <path d="M 0,0 L 1600,0 L 1600,155 C 1490,135 1380,195 1200,175 C 1020,155 910,185 800,155 C 690,135 580,195 400,175 C 220,155 110,185 0,155 Z" fill="#A970FF" opacity="0.25" />
+  </g>
 
-  <!-- Foreground Wave (Main Gradient Banner) -->
-  <path d="M 0,0 L 800,0 L 800,150 C 680,180 550,120 400,160 C 250,200 120,140 0,170 Z" fill="url(#bannerGrad)" />
+  <!-- Animated Foreground Wave Group (Main Banner) -->
+  <g class="wave-front">
+    <path d="M 0,0 L 1600,0 L 1600,150 C 1480,180 1350,120 1200,160 C 1050,200 920,140 800,170 C 680,180 550,120 400,160 C 250,200 120,140 0,170 Z" fill="url(#bannerGrad)" />
+  </g>
 
-  <!-- Centered Name Text -->
+  <!-- Static Centered Name Text -->
   <text x="400" y="90" 
         text-anchor="middle" 
         fill="#F0F6FC" 
@@ -22,7 +44,7 @@
         font-weight="800" 
         letter-spacing="-0.5px">Vishnu Vardhan Uppari</text>
 
-  <!-- Centered Subtitle Text -->
+  <!-- Static Centered Subtitle Text -->
   <text x="400" y="125" 
         text-anchor="middle" 
         fill="#F0F6FC" 
