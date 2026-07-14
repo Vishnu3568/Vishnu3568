@@ -1,114 +1,151 @@
-# 🌌 Welcome to My Space
+<div align="center">
+  <img src="assets/terminal_banner.svg" alt="Vishnu Vardhan Uppari Terminal Banner" width="100%" />
+</div>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Vishnu's GitHub Profile Banner" width="100%" />
+  <a href="#whoami">whoami</a> • 
+  <a href="#current-focus">focus</a> • 
+  <a href="#tech-stack">tech stack</a> • 
+  <a href="#featured-projects">projects</a> • 
+  <a href="#statistics">statistics</a> • 
+  <a href="#latest-activity">activity</a> • 
+  <a href="#connect">connect</a>
 </p>
 
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
-</p>
+---
 
-## 🧑‍💻 About Me
+<h2 id="whoami">⚡ Who Am I</h2>
 
-I am a Full-Stack Engineer and Software Architect dedicated to building high-performance, modular, and scalable software systems. I specialize in designing robust backend pipelines, type-safe frontend architectures, and automated cloud workflows.
+```bash
+vishnu@developer:~$ cat profile.json
+```
 
-* 🛠️ Currently developing **[ExpenseIQ](https://github.com/Vishnu3568/ExpenseIQ)** - a full-stack personal finance and wealth-tracking dashboard.
-* 🔭 Exploring advanced agentic workflows and container orchestrations.
-* ⚡ Fun fact: I believe that code is written for humans to read and only incidentally for computers to execute.
+```json
+{
+  "name": "Vishnu Vardhan Uppari",
+  "role": "Full Stack & Java Backend Developer",
+  "philosophy": "I build production-ready software that scales.",
+  "strengths": [
+    "Backend Microservices & REST API Design",
+    "Database Architecture & Query Optimization",
+    "Modern Frontends with Fluid Interfaces",
+    "AI Integration Pipelines"
+  ]
+}
+```
 
-<br />
+---
 
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
-</p>
+<h2 id="current-focus">🎯 Current Focus</h2>
 
-## 📊 Performance Metrics
+> [!NOTE]
+> I am currently designing modular backend engines using **Spring Boot**, integrating them with conversational **AI agents**, and containerizing architectures via **Docker** to achieve seamless local-to-cloud workflows.
 
-<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Vishnu3568&amp;show_icons=true&amp;bg_color=090d16&amp;title_color=06b6d4&amp;text_color=94a3b8&amp;icon_color=4f46e5&amp;border_color=131926" alt="GitHub Stats" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishnu3568&amp;background=090d16&amp;ring=4f46e5&amp;fire=06b6d4&amp;currStreakNum=f8fafc&amp;sideNums=94a3b8&amp;sideLabels=94a3b8&amp;dates=94a3b8&amp;stroke=131926" alt="GitHub Streak" width="100%" />
-    </td>
-  </tr>
-</table>
+---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishnu3568&amp;layout=compact&amp;bg_color=090d16&amp;title_color=06b6d4&amp;text_color=94a3b8&amp;icon_color=4f46e5&amp;border_color=131926" alt="Top Languages" width="380" />
-</p>
-
-<br />
-
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
-</p>
-
-## 💻 Core Stack
-
-| Layer | Tools &amp; Technologies |
-| --- | --- |
-| **Frontend &amp; UI** | <img src="assets/badges/typescript.svg" alt="TypeScript" height="24" /> <img src="assets/badges/react.svg" alt="React" height="24" /> |
-| **Backend &amp; APIs** | <img src="assets/badges/nodejs.svg" alt="NodeJS" height="24" /> <img src="assets/badges/python.svg" alt="Python" height="24" /> <img src="assets/badges/graphql.svg" alt="GraphQL" height="24" /> |
-| **Data &amp; Cache** | <img src="assets/badges/postgresql.svg" alt="PostgreSQL" height="24" /> |
-| **DevOps &amp; Cloud** | <img src="assets/badges/docker.svg" alt="Docker" height="24" /> <img src="assets/badges/aws.svg" alt="AWS" height="24" /> |
-
-<br />
-
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
-</p>
-
-## 🚀 Featured Showcases
+<h2 id="tech-stack">🛠️ Tech Stack Matrix</h2>
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3>💡 ExpenseIQ</h3>
-      <p>A full-stack reactive finance planner and expense manager. Designed with Vite/React frontend and node/express backend.</p>
-      <p>
-        <img src="assets/badges/typescript.svg" alt="TypeScript" height="20" />
-        <img src="assets/badges/react.svg" alt="React" height="20" />
-        <img src="assets/badges/nodejs.svg" alt="NodeJS" height="20" />
-      </p>
-      <a href="https://github.com/Vishnu3568/ExpenseIQ"><b>View Repository →</b></a>
+    <td width="33%" valign="top">
+      <h4>Backend &amp; Core</h4>
+      <img src="https://img.shields.io/badge/Java_17+-1E293B?style=flat-square&logo=openjdk&logoColor=3B82F6" alt="Java" /><br/>
+      <img src="https://img.shields.io/badge/Spring_Boot-1E293B?style=flat-square&logo=springboot&logoColor=10B981" alt="Spring Boot" /><br/>
+      <img src="https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" /><br/>
+      <img src="https://img.shields.io/badge/REST_APIs-1E293B?style=flat-square&logo=insomnia&logoColor=F3F4F6" alt="REST APIs" />
     </td>
-    <td width="50%" valign="top">
-      <h3>🤖 Binance Trading Bot</h3>
-      <p>Automated crypto trading bot executing spot orders based on indicators. Built with modular python service and dockerized.</p>
-      <p>
-        <img src="assets/badges/python.svg" alt="Python" height="20" />
-        <img src="assets/badges/docker.svg" alt="Docker" height="20" />
-      </p>
-      <a href="https://github.com/Vishnu3568/Binance-Trading-Bot"><b>View Repository →</b></a>
+    <td width="33%" valign="top">
+      <h4>Frontend &amp; Design</h4>
+      <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=60A5FA" alt="React" /><br/>
+      <img src="https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /><br/>
+      <img src="https://img.shields.io/badge/HTML5_/_CSS3-1E293B?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5 / CSS3" /><br/>
+      <img src="https://img.shields.io/badge/UI_/_UX_Design-1E293B?style=flat-square&logo=figma&logoColor=F24E1E" alt="UI Design" />
+    </td>
+    <td width="33%" valign="top">
+      <h4>DevOps &amp; Tools</h4>
+      <img src="https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" /><br/>
+      <img src="https://img.shields.io/badge/Git_/_GitHub-1E293B?style=flat-square&logo=git&logoColor=F05032" alt="Git" /><br/>
+      <img src="https://img.shields.io/badge/Database_Design-1E293B?style=flat-square&logo=databricks&logoColor=FF3621" alt="Database Design" /><br/>
+      <img src="https://img.shields.io/badge/AI_Integrations-1E293B?style=flat-square&logo=googlebard&logoColor=a855f7" alt="AI Integrations" />
     </td>
   </tr>
 </table>
 
-<br />
+---
 
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
+<h2 id="featured-projects">📂 Featured Projects</h2>
+
+<table width="100%">
+  <!-- Project 1 -->
+  <tr>
+    <td>
+      <h3>🚀 SmartOps API Engine</h3>
+      <p>A production-ready Enterprise REST backend engineered for fast transactions, built using Java 17 and Spring Boot. Optimized to process parallel operations with comprehensive Docker scaffolding.</p>
+      <b>Key Features:</b>
+      <ul>
+        <li>Secure API authentication layers</li>
+        <li>Custom query performance filters</li>
+        <li>Automated containerized deployment</li>
+      </ul>
+      <code>Java 17</code> • <code>Spring Boot</code> • <code>MySQL</code> • <code>Docker</code>
+      <br/><br/>
+      <a href="https://github.com/Vishnu3568"><b>View Repository »</b></a>
+    </td>
+  </tr>
+  <!-- Project 2 -->
+  <tr>
+    <td>
+      <h3>💻 ContextAI Dashboard</h3>
+      <p>A modern Full-Stack interface that integrates real-time AI capabilities into visual project workflows. Combines a React SPA with a Node.js API orchestrating natural language processes.</p>
+      <b>Key Features:</b>
+      <ul>
+        <li>Responsive component layouts</li>
+        <li>Context-aware AI prompt interfaces</li>
+        <li>Real-time websocket telemetry</li>
+      </ul>
+      <code>React</code> • <code>Node.js</code> • <code>Express</code> • <code>AI APIs</code>
+      <br/><br/>
+      <a href="https://github.com/Vishnu3568"><b>View Repository »</b></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h2 id="statistics">📊 Statistics &amp; Metrics</h2>
+
+<div align="center">
+  <img src="assets/stats_dashboard.svg" alt="Vishnu's Developer Statistics Dashboard" width="100%" />
+</div>
+
+---
+
+<h2 id="latest-activity">📰 Recent Git Activity Log</h2>
+
+<!-- START_ACTIVITY -->
+
+| Timestamp | Activity Detail |
+| :--- | :--- |
+| `[Jul 14, 2026]` | 🆕 Created branch `main` in repository |
+| `[Jul 14, 2026]` | 🆕 Created branch `master` in repository |
+| `[Jul 11, 2026]` | 🆕 Created branch `main` in repository |
+
+<!-- END_ACTIVITY -->
+
+---
+
+<h2 id="connect">📬 Connect &amp; Collaborate</h2>
+
+<p align="left">
+  <a href="mailto:uvishnu3568@gmail.com">
+    <img src="https://img.shields.io/badge/Email-uvishnu3568%40gmail.com-10B981?style=flat-square&logo=gmail&logoColor=white" alt="Email Address" />
+  </a>
+  <a href="https://github.com/Vishnu3568">
+    <img src="https://img.shields.io/badge/GitHub-Vishnu3568-3B82F6?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
 </p>
 
-## 📻 Broadcast Signals (Latest Activity)
-
-<!-- ACTIVITY_START -->
-- 🚀 Created new branch: [`Vishnu3568/Vishnu3568`](https://github.com/Vishnu3568/Vishnu3568)
-- 📝 Pushed **1 commit(s)** to [`Vishnu3568/binance-futures-trading-bot`](https://github.com/Vishnu3568/binance-futures-trading-bot) on branch `master`
-- 🚀 Created new branch: [`Vishnu3568/binance-futures-trading-bot`](https://github.com/Vishnu3568/binance-futures-trading-bot)
-- 📝 Pushed **1 commit(s)** to [`Vishnu3568/ExpenseIQ`](https://github.com/Vishnu3568/ExpenseIQ) on branch `main`
-- 🚀 Created new branch: [`Vishnu3568/SkillMatrix`](https://github.com/Vishnu3568/SkillMatrix)
-<!-- ACTIVITY_END -->
-
-<br />
-<p align="center">
-  <img src="assets/divider.svg" alt="Section Divider" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/vishnu-unnikrishnan-5527a01a3"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;&nbsp;
-  <a href="mailto:uvishnu2002@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
-</p>
+```bash
+vishnu@developer:~$ exit
+# Logout successful. Happy coding!
+```
