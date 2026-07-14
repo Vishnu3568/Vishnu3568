@@ -1,5 +1,5 @@
 <div align="left">
-  <img src="assets/terminal_banner.svg" alt="DevOS Terminal Banner" width="100%" />
+  <img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
 </div>
 
 ***
@@ -34,7 +34,7 @@ A systems-focused software engineer specializing in backend application architec
 ## > github_stats
 
 <div align="left">
-  <img src="assets/stats_dashboard.svg" alt="Workspace Metrics Dashboard" width="100%" />
+  <img src="assets/stats_dashboard.svg?v=2" alt="Workspace Metrics Dashboard" width="100%" />
 </div>
 
 ***
