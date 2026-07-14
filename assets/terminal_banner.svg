@@ -1,27 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient (Obsidian to deep night) -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="100%" stop-color="#0f172a" />
-    </linearGradient>
-    
-    <!-- Accent Gradient (Java/Web Blue to Emerald Green) -->
+    <!-- Accent Gradient (Primary Blue to Secondary Purple) -->
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#10b981" />
+      <stop offset="0%" stop-color="#58A6FF" />
+      <stop offset="100%" stop-color="#A970FF" />
     </linearGradient>
 
     <style>
-      .term-title { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 13px; fill: #64748b; font-weight: 500; }
-      .term-prompt { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 14px; fill: #10b981; font-weight: 600; }
-      .term-command { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 14px; fill: #f8fafc; }
-      .name-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 800; fill: #f8fafc; letter-spacing: -0.5px; }
-      .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 600; fill: #3b82f6; }
-      .desc-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; fill: #94a3b8; line-height: 1.5; }
-      .stat-label { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 12px; fill: #64748b; }
-      .stat-value { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 12px; fill: #10b981; font-weight: 500; }
-      .cursor { fill: #10b981; animation: blink 1.2s step-end infinite; }
+      .term-title { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 13px; fill: #8B949E; font-weight: 500; }
+      .term-prompt { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 14px; fill: #58A6FF; font-weight: 600; }
+      .term-command { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 14px; fill: #FFB347; }
+      .name-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 800; fill: #F0F6FC; letter-spacing: -0.5px; }
+      .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 600; fill: #A970FF; }
+      .desc-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; fill: #8B949E; line-height: 1.5; }
+      .stat-label { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 12px; fill: #8B949E; }
+      .stat-value { font-family: 'Fira Code', 'Courier New', Courier, monospace; font-size: 12px; fill: #58A6FF; font-weight: 500; }
+      .cursor { fill: #FFB347; animation: blink 1.2s step-end infinite; }
       
       @keyframes blink {
         50% { opacity: 0; }
@@ -30,60 +24,60 @@
   </defs>
 
   <!-- Card Canvas -->
-  <rect x="0" y="0" width="800" height="320" rx="8" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="0" y="0" width="800" height="320" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
 
   <!-- Terminal Header Bar -->
-  <path d="M 0,8 A 8,8 0 0,1 8,0 L 792,0 A 8,8 0 0,1 800,8 L 800,36 L 0,36 Z" fill="#131924" />
+  <path d="M 0,8 A 8,8 0 0,1 8,0 L 792,0 A 8,8 0 0,1 800,8 L 800,36 L 0,36 Z" fill="#161B22" />
   
-  <!-- Window Control Dot Indicators -->
-  <circle cx="24" cy="18" r="5" fill="#ef4444" opacity="0.9" />
-  <circle cx="40" cy="18" r="5" fill="#f59e0b" opacity="0.9" />
-  <circle cx="56" cy="18" r="5" fill="#10b981" opacity="0.9" />
+  <!-- Window Control Dot Indicators (Strict Monochromatic Colors) -->
+  <circle cx="24" cy="18" r="5" fill="#30363D" />
+  <circle cx="40" cy="18" r="5" fill="#30363D" />
+  <circle cx="56" cy="18" r="5" fill="#30363D" />
   
   <!-- Centered Terminal Session Title -->
-  <text x="400" y="22" text-anchor="middle" class="term-title">vishnu@dev-workspace: ~ (zsh)</text>
+  <text x="400" y="22" text-anchor="middle" class="term-title">vishnu@dev-workstation: ~ (zsh)</text>
 
   <!-- Vector Profile Monogram on the Right Grid -->
   <g transform="translate(640, 75)">
     <!-- Thin Sleek Border with Accent Gradient -->
     <rect x="-1" y="-1" width="122" height="122" rx="16" fill="none" stroke="url(#accentGrad)" stroke-width="2" />
-    <rect x="0" y="0" width="120" height="120" rx="15" fill="#131924" />
+    <rect x="0" y="0" width="120" height="120" rx="15" fill="#161B22" />
     
     <!-- Stylized Terminal Prompt Logo -->
-    <path d="M 35,35 L 55,60 L 35,85" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
-    <line x1="62" y1="84" x2="85" y2="84" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+    <path d="M 35,35 L 55,60 L 35,85" fill="none" stroke="#F0F6FC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="62" y1="84" x2="85" y2="84" stroke="#FFB347" stroke-width="6" stroke-linecap="round" />
   </g>
 
   <!-- Left Main Content Grid (Aligned to 40px left padding) -->
   <g transform="translate(40, 75)">
     <!-- Command Prompt Simulation -->
-    <text x="0" y="5" class="term-prompt">vishnu@developer:~$ <tspan class="term-command">whoami</tspan></text>
+    <text x="0" y="5" class="term-prompt">vishnu@dev:~$ <tspan class="term-command">whoami</tspan></text>
     
     <!-- Primary Heading -->
     <text x="0" y="45" class="name-text">Vishnu Vardhan Uppari</text>
     
     <!-- Core Brand Title -->
-    <text x="0" y="75" class="title-text">Full Stack &amp; Java Backend Developer</text>
+    <text x="0" y="75" class="title-text">Software Engineer &amp; Full Stack Developer</text>
     
     <!-- Clean Subtitles -->
-    <text x="0" y="105" class="desc-text">Engineering production-ready, highly scalable backend architectures</text>
-    <text x="0" y="125" class="desc-text">integrated with modern frontend layouts and database engines.</text>
+    <text x="0" y="105" class="desc-text">Engineering production-ready systems, scalable backend architectures</text>
+    <text x="0" y="125" class="desc-text">integrated with modern frontend frameworks and relational data stores.</text>
 
     <!-- System specs segment -->
     <g transform="translate(0, 160)">
       <!-- Muted Separator Line -->
-      <line x1="0" y1="-15" x2="560" y2="-15" stroke="#1e293b" stroke-width="1" />
+      <line x1="0" y1="-15" x2="560" y2="-15" stroke="#30363D" stroke-width="1" />
       
       <!-- Metrics & Details -->
       <text x="0" y="10" class="stat-label">OS: <tspan class="stat-value">Java / Spring Boot / React / Docker</tspan></text>
-      <text x="0" y="30" class="stat-label">Location: <tspan class="stat-value">Hyderabad, India</tspan></text>
+      <text x="0" y="30" class="stat-label">Shell: <tspan class="stat-value">zsh / bash / git-bash</tspan></text>
       
       <!-- Second Prompt simulation -->
-      <text x="0" y="55" class="term-prompt">vishnu@developer:~$ <tspan class="term-command">cat status.log</tspan></text>
-      <text x="0" y="75" class="desc-text">Currently developing: <tspan fill="#10b981" font-weight="600">AI Integration &amp; REST Microservices</tspan></text>
+      <text x="0" y="55" class="term-prompt">vishnu@dev:~$ <tspan class="term-command">cat status.conf</tspan></text>
+      <text x="0" y="75" class="desc-text">Environment status: <tspan fill="#FFB347" font-weight="600">Building production-grade applications</tspan></text>
       
       <!-- Monospace terminal cursor -->
-      <rect x="368" y="65" width="8" height="12" class="cursor" />
+      <rect x="422" y="65" width="8" height="12" class="cursor" />
     </g>
   </g>
 </svg>

@@ -1,68 +1,26 @@
 <div align="center">
   <!-- Banner -->
-  <img src="assets/terminal_banner.svg" alt="Vishnu Vardhan Uppari Terminal Banner" width="100%" />
-
-  <br/><br/>
-
-  <!-- Headline -->
-  <h1>Vishnu Vardhan Uppari</h1>
-
-  <!-- Typing Animation -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=10B981&center=true&vCenter=true&width=450&lines=Full+Stack+Developer;Java+Backend+Developer;Backend+Systems+Engineer;REST+API+Architect" alt="Typing Animation" />
+  <img src="assets/terminal_banner.svg" alt="Vishnu Vardhan Uppari DevOS Banner" width="100%" />
 
   <br/>
 
-  <!-- Positioning Statement & Engineering Mission -->
-  <p>
-    <strong>Software Engineer specializing in robust Java backends &amp; scalable full-stack applications.</strong><br/>
-    I design, containerize, and deploy production-ready software systems with a focus on clean architecture, query optimization, and REST API design.
-  </p>
+  <!-- Typing Animation -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=FFB347&center=true&vCenter=true&width=450&lines=Full+Stack+Developer;Java+Backend+Developer;Backend+Systems+Engineer;REST+API+Architect" alt="Typing Animation" />
 
-  <!-- Status / Opportunities & View Counter -->
+  <!-- Workspace Tab Navigation Anchors -->
   <p>
-    <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=flat-square&logo=github&logoColor=white" alt="Status" />
-    &nbsp;
-    <img src="https://komarev.com/ghvc/?username=Vishnu3568&color=3B82F6&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-  </p>
-
-  <!-- Social & Resource Call-to-Action Buttons -->
-  <p>
-    <a href="https://github.com/Vishnu3568" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    &nbsp;
-    <a href="https://linkedin.com/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    &nbsp;
-    <a href="mailto:uvishnu3568@gmail.com">
-      <img src="https://img.shields.io/badge/Email-10B981?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/Vishnu3568" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/Vishnu3568" target="_blank">
-      <img src="https://img.shields.io/badge/Resume-EF4444?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
-    </a>
-  </p>
-
-  <!-- Section Navigation Links -->
-  <p>
-    <a href="#whoami">whoami</a> • 
-    <a href="#current-focus">focus</a> • 
-    <a href="#tech-stack">tech stack</a> • 
-    <a href="#featured-projects">projects</a> • 
-    <a href="#statistics">statistics</a> • 
-    <a href="#latest-activity">activity</a> • 
-    <a href="#connect">connect</a>
+    <code>[main.java](#-whoami)</code> &nbsp;•&nbsp; 
+    <code>[focus.json](#-current_focus)</code> &nbsp;•&nbsp; 
+    <code>[stack.yaml](#-tech_stack)</code> &nbsp;•&nbsp; 
+    <code>[projects.md](#-project_case_studies)</code> &nbsp;•&nbsp; 
+    <code>[activity.log](#-terminal_activity)</code> &nbsp;•&nbsp; 
+    <code>[contact.xml](#-contact_nodes)</code>
   </p>
 </div>
 
 ---
 
-<h2 id="whoami">⚡ Who Am I</h2>
+<h2 id="-whoami">> whoami</h2>
 
 ```bash
 vishnu@developer:~$ cat VishnuProfile.java
@@ -111,7 +69,7 @@ public record VishnuProfile(
 
 ---
 
-<h2 id="current-focus">🎯 Current Focus</h2>
+<h2 id="-current_focus">> current_focus</h2>
 
 ```bash
 vishnu@developer:~$ cat focus_dashboard.conf
@@ -142,62 +100,59 @@ vishnu@developer:~$ cat focus_dashboard.conf
 
 ---
 
-<h2 id="tech-stack">🛠️ Engineering Capability Matrix</h2>
+<h2 id="-tech_stack">> tech_stack</h2>
 
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
       <h3>💻 Languages</h3>
       <p>
-        <img src="https://img.shields.io/badge/Java-1E293B?style=flat-square&logo=openjdk&logoColor=3B82F6" alt="Java" />
-        <img src="https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
-        <img src="https://img.shields.io/badge/SQL-1E293B?style=flat-square&logo=databricks&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=58A6FF" alt="Java" />
+        <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=FFB347" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
+        <img src="https://img.shields.io/badge/SQL-161B22?style=flat-square&logo=databricks&logoColor=F0F6FC" alt="SQL" />
       </p>
-      <h3>⚙️ Backend</h3>
+      <h3>⚙&nbsp; Backend</h3>
       <p>
-        <img src="https://img.shields.io/badge/Spring_Boot-1E293B?style=flat-square&logo=springboot&logoColor=10B981" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Express.js-1E293B?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-        <img src="https://img.shields.io/badge/REST_APIs-1E293B?style=flat-square&logo=insomnia&logoColor=F3F4F6" alt="REST APIs" />
-        <img src="https://img.shields.io/badge/JWT_Auth-1E293B?style=flat-square&logo=jsonwebtokens&logoColor=d63aff" alt="JWT Auth" />
+        <img src="https://img.shields.io/badge/Spring_Boot-161B22?style=flat-square&logo=springboot&logoColor=A970FF" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=A970FF" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express-161B22?style=flat-square&logo=express&logoColor=F0F6FC" alt="Express.js" />
+        <img src="https://img.shields.io/badge/REST_APIs-161B22?style=flat-square&logo=insomnia&logoColor=58A6FF" alt="REST APIs" />
+        <img src="https://img.shields.io/badge/JWT_Auth-161B22?style=flat-square&logo=jsonwebtokens&logoColor=A970FF" alt="JWT Auth" />
       </p>
     </td>
     <td width="33%" valign="top">
       <h3>🎨 Frontend</h3>
       <p>
-        <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=60A5FA" alt="React" />
-        <img src="https://img.shields.io/badge/HTML5-1E293B?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1E293B?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-1E293B?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=58A6FF" alt="React" />
+        <img src="https://img.shields.io/badge/HTML5-161B22?style=flat-square&logo=html5&logoColor=FFB347" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-161B22?style=flat-square&logo=css3&logoColor=58A6FF" alt="CSS3" />
+        <img src="https://img.shields.io/badge/Tailwind-161B22?style=flat-square&logo=tailwindcss&logoColor=58A6FF" alt="Tailwind CSS" />
       </p>
       <h3>💾 Databases</h3>
       <p>
-        <img src="https://img.shields.io/badge/PostgreSQL-1E293B?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/MySQL-1E293B?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
-        <img src="https://img.shields.io/badge/Prisma_ORM-1E293B?style=flat-square&logo=prisma&logoColor=2D3748" alt="Prisma ORM" />
+        <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=58A6FF" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=58A6FF" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Prisma-161B22?style=flat-square&logo=prisma&logoColor=F0F6FC" alt="Prisma ORM" />
       </p>
     </td>
     <td width="33%" valign="top">
-      <h3>🔧 DevOps</h3>
+      <h3>🔧 DevOps &amp; Tools</h3>
       <p>
-        <img src="https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-        <img src="https://img.shields.io/badge/Git-1E293B?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-        <img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-      </p>
-      <h3>🛠️ Developer Tools</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Postman-1E293B?style=flat-square&logo=postman&logoColor=FF6C37" alt="Postman" />
-        <img src="https://img.shields.io/badge/VS_Code-1E293B?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
-        <img src="https://img.shields.io/badge/IntelliJ_IDEA-1E293B?style=flat-square&logo=intellijidea&logoColor=FE315D" alt="IntelliJ IDEA" />
+        <img src="https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=58A6FF" alt="Docker" />
+        <img src="https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=FFB347" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=F0F6FC" alt="GitHub" /><br/>
+        <img src="https://img.shields.io/badge/Postman-161B22?style=flat-square&logo=postman&logoColor=FFB347" alt="Postman" />
+        <img src="https://img.shields.io/badge/VS_Code-161B22?style=flat-square&logo=visualstudiocode&logoColor=58A6FF" alt="VS Code" />
+        <img src="https://img.shields.io/badge/IntelliJ-161B22?style=flat-square&logo=intellijidea&logoColor=A970FF" alt="IntelliJ" />
       </p>
       <h3>🚀 Exploring</h3>
       <p>
-        <img src="https://img.shields.io/badge/System_Design-1E293B?style=flat-square&logo=diagramsdotnet&logoColor=white" alt="System Design" />
-        <img src="https://img.shields.io/badge/Software_Architecture-1E293B?style=flat-square&logo=gitbook&logoColor=white" alt="Software Architecture" />
-        <img src="https://img.shields.io/badge/Cloud_Fundamentals-1E293B?style=flat-square&logo=googlecloud&logoColor=white" alt="Cloud Fundamentals" />
-        <img src="https://img.shields.io/badge/CI%2FCD-1E293B?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
-        <img src="https://img.shields.io/badge/AI_Integration-1E293B?style=flat-square&logo=googlebard&logoColor=a855f7" alt="AI Integration" />
+        <img src="https://img.shields.io/badge/System_Design-161B22?style=flat-square&logo=diagramsdotnet&logoColor=F0F6FC" alt="System Design" />
+        <img src="https://img.shields.io/badge/Architecture-161B22?style=flat-square&logo=gitbook&logoColor=A970FF" alt="Software Architecture" /><br/>
+        <img src="https://img.shields.io/badge/Cloud_Specs-161B22?style=flat-square&logo=googlecloud&logoColor=58A6FF" alt="Cloud Fundamentals" />
+        <img src="https://img.shields.io/badge/CI%2FCD-161B22?style=flat-square&logo=githubactions&logoColor=A970FF" alt="CI/CD" />
+        <img src="https://img.shields.io/badge/AI_Integration-161B22?style=flat-square&logo=googlebard&logoColor=FFB347" alt="AI Integration" />
       </p>
     </td>
   </tr>
@@ -205,7 +160,7 @@ vishnu@developer:~$ cat focus_dashboard.conf
 
 ---
 
-<h2 id="featured-projects">📂 Featured Projects</h2>
+<h2 id="-project_case_studies">> project_case_studies</h2>
 
 <table width="100%">
   <!-- Project 1: ExpenseIQ -->
@@ -282,9 +237,7 @@ vishnu@developer:~$ cat focus_dashboard.conf
   </tr>
 </table>
 
----
-
-<h2 id="statistics">📊 Statistics &amp; Metrics</h2>
+<br/>
 
 <div align="center">
   <img src="assets/stats_dashboard.svg" alt="Vishnu's Developer Statistics Dashboard" width="100%" />
@@ -292,7 +245,7 @@ vishnu@developer:~$ cat focus_dashboard.conf
 
 ---
 
-<h2 id="latest-activity">📰 Recent Git Activity Log</h2>
+<h2 id="-terminal_activity">> terminal_activity</h2>
 
 <!-- START_ACTIVITY -->
 
@@ -306,18 +259,21 @@ vishnu@developer:~$ cat focus_dashboard.conf
 
 ---
 
-<h2 id="connect">📬 Connect &amp; Collaborate</h2>
+<h2 id="-contact_nodes">> contact_nodes</h2>
 
 <p align="left">
   <a href="mailto:uvishnu3568@gmail.com">
-    <img src="https://img.shields.io/badge/Email-uvishnu3568%40gmail.com-10B981?style=flat-square&logo=gmail&logoColor=white" alt="Email Address" />
+    <img src="https://img.shields.io/badge/Email-uvishnu3568%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=FFB347" alt="Email Address" />
   </a>
   <a href="https://github.com/Vishnu3568">
-    <img src="https://img.shields.io/badge/GitHub-Vishnu3568-3B82F6?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-Vishnu3568-161B22?style=flat-square&logo=github&logoColor=58A6FF" alt="GitHub Profile" />
+  </a>
+  <a href="https://linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-161B22?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn Profile" />
   </a>
 </p>
 
 ```bash
 vishnu@developer:~$ exit
-# Logout successful. Happy coding!
+# DevOS Session Terminated.
 ```
