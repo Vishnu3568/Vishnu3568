@@ -1,16 +1,64 @@
 <div align="center">
+  <!-- Banner -->
   <img src="assets/terminal_banner.svg" alt="Vishnu Vardhan Uppari Terminal Banner" width="100%" />
-</div>
 
-<p align="center">
-  <a href="#whoami">whoami</a> • 
-  <a href="#current-focus">focus</a> • 
-  <a href="#tech-stack">tech stack</a> • 
-  <a href="#featured-projects">projects</a> • 
-  <a href="#statistics">statistics</a> • 
-  <a href="#latest-activity">activity</a> • 
-  <a href="#connect">connect</a>
-</p>
+  <br/><br/>
+
+  <!-- Headline -->
+  <h1>Vishnu Vardhan Uppari</h1>
+
+  <!-- Typing Animation -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=10B981&center=true&vCenter=true&width=450&lines=Full+Stack+Developer;Java+Backend+Developer;Backend+Systems+Engineer;REST+API+Architect" alt="Typing Animation" />
+
+  <br/>
+
+  <!-- Positioning Statement & Engineering Mission -->
+  <p>
+    <strong>Software Engineer specializing in robust Java backends &amp; scalable full-stack applications.</strong><br/>
+    I design, containerize, and deploy production-ready software systems with a focus on clean architecture, query optimization, and REST API design.
+  </p>
+
+  <!-- Status / Opportunities & View Counter -->
+  <p>
+    <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=flat-square&logo=github&logoColor=white" alt="Status" />
+    &nbsp;
+    <img src="https://komarev.com/ghvc/?username=Vishnu3568&color=3B82F6&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  </p>
+
+  <!-- Social & Resource Call-to-Action Buttons -->
+  <p>
+    <a href="https://github.com/Vishnu3568" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    &nbsp;
+    <a href="https://linkedin.com/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:uvishnu3568@gmail.com">
+      <img src="https://img.shields.io/badge/Email-10B981?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Vishnu3568" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Vishnu3568" target="_blank">
+      <img src="https://img.shields.io/badge/Resume-EF4444?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
+    </a>
+  </p>
+
+  <!-- Section Navigation Links -->
+  <p>
+    <a href="#whoami">whoami</a> • 
+    <a href="#current-focus">focus</a> • 
+    <a href="#tech-stack">tech stack</a> • 
+    <a href="#featured-projects">projects</a> • 
+    <a href="#statistics">statistics</a> • 
+    <a href="#latest-activity">activity</a> • 
+    <a href="#connect">connect</a>
+  </p>
+</div>
 
 ---
 
