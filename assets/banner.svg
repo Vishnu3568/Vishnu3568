@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    
+    <!-- Accent Neon Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" /> <!-- Violet -->
+      <stop offset="50%" stop-color="#3B82F6" /> <!-- Blue -->
+      <stop offset="100%" stop-color="#06B6D4" /> <!-- Cyan -->
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Filters for Glow Effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- CSS Styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@400;500&amp;display=swap');
+      
+      .title {
+        font-family: 'Outfit', -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 46px;
+        fill: #F8FAFC;
+        letter-spacing: 3px;
+      }
+      
+      .subtitle {
+        font-family: 'Fira Code', monospace;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #06B6D4;
+        letter-spacing: 2px;
+      }
+
+      /* Animated Grid Line Path Drawing */
+      .grid-line {
+        stroke: #3B82F6;
+        stroke-opacity: 0.15;
+        stroke-dasharray: 800;
+        stroke-dashoffset: 800;
+        animation: drawLine 8s linear infinite;
+      }
+
+      .grid-line-cyan {
+        stroke: #06B6D4;
+        stroke-opacity: 0.2;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        animation: drawLineCyan 6s linear infinite;
+        animation-delay: 2s;
+      }
+
+      @keyframes drawLine {
+        0% { stroke-dashoffset: 800; }
+        50% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -800; }
+      }
+
+      @keyframes drawLineCyan {
+        0% { stroke-dashoffset: 600; }
+        50% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -600; }
+      }
+
+      /* Pulse animation for node dots */
+      .pulse-dot {
+        fill: #06B6D4;
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      
+      .pulse-dot-violet {
+        fill: #8B5CF6;
+        animation: pulse 4s ease-in-out infinite alternate;
+        animation-delay: 1s;
+      }
+
+      @keyframes pulse {
+        0% { r: 2px; opacity: 0.4; }
+        100% { r: 5px; opacity: 1; filter: drop-shadow(0 0 4px #06B6D4); }
+      }
+
+      /* Floating tech shapes */
+      .float-element {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+        100% { transform: translateY(0px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Background Decorative Grid and Vectors -->
+  <g class="float-element">
+    <!-- Grid Lines -->
+    <path class="grid-line" d="M -50,50 L 850,50 M -50,150 L 850,150 M -50,250 L 850,250" stroke-width="1" />
+    <path class="grid-line-cyan" d="M 100,-50 L 100,350 M 350,-50 L 350,350 M 600,-50 L 600,350" stroke-width="1" />
+    
+    <!-- Tech Node Connections -->
+    <line x1="600" y1="150" x2="680" y2="90" stroke="#4F46E5" stroke-opacity="0.3" stroke-width="1.5" />
+    <line x1="680" y1="90" x2="730" y2="180" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1.5" />
+    <line x1="730" y1="180" x2="600" y2="150" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1.5" />
+    
+    <!-- Dots on Nodes -->
+    <circle cx="600" cy="150" r="3.5" class="pulse-dot-violet" />
+    <circle cx="680" cy="90" r="4" class="pulse-dot" />
+    <circle cx="730" cy="180" r="3.5" class="pulse-dot-violet" />
+  </g>
+
+  <!-- Glowing light spots -->
+  <circle cx="50" cy="50" r="120" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.12" />
+  <circle cx="750" cy="250" r="100" fill="url(#glowGrad)" filter="url(#glow)" opacity="0.12" />
+
+  <!-- Content -->
+  <g transform="translate(60, 0)">
+    <!-- Tech tag -->
+    <text x="0" y="85" class="subtitle" filter="url(#subtleGlow)">&lt;developer_profile&gt;</text>
+    
+    <!-- Main Title -->
+    <text x="0" y="145" class="title">
+      VISHNU<tspan fill="url(#accentGrad)">3568</tspan>
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="195" class="subtitle" fill="#94A3B8">
+      FULL-STACK DEVELOPER &amp; ARCHITECT
+    </text>
+
+    <!-- Embedded Badges -->
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="85" height="24" rx="12" fill="#131926" stroke="#4F46E5" stroke-opacity="0.4" stroke-width="1" />
+      <text x="42.5" y="16" font-family="'Fira Code', monospace" font-size="10" fill="#F8FAFC" text-anchor="middle">TypeScript</text>
+      
+      <rect x="95" y="0" width="65" height="24" rx="12" fill="#131926" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1" />
+      <text x="127.5" y="16" font-family="'Fira Code', monospace" font-size="10" fill="#F8FAFC" text-anchor="middle">React</text>
+      
+      <rect x="170" y="0" width="65" height="24" rx="12" fill="#131926" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1" />
+      <text x="202.5" y="16" font-family="'Fira Code', monospace" font-size="10" fill="#F8FAFC" text-anchor="middle">NodeJS</text>
+
+      <rect x="245" y="0" width="65" height="24" rx="12" fill="#131926" stroke="#10B981" stroke-opacity="0.4" stroke-width="1" />
+      <text x="277.5" y="16" font-family="'Fira Code', monospace" font-size="10" fill="#F8FAFC" text-anchor="middle">Docker</text>
+    </g>
+  </g>
+
+</svg>
