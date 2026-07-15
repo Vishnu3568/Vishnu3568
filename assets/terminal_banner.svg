@@ -7,9 +7,9 @@
     </linearGradient>
   </defs>
 
-  <!-- Animated Background Wave Group (SMIL Parallax) -->
+  <!-- Animated Background Wave Group (SMIL Parallax - Mathematically Smooth Sine Wave) -->
   <g>
-    <path d="M 0,0 L 1600,0 L 1600,150 C 1490,130 1380,190 1200,170 C 1020,150 910,180 800,150 C 690,130 580,190 400,170 C 220,150 110,180 0,150 Z" fill="#A970FF" opacity="0.25" />
+    <path d="M 0,0 L 1600,0 L 1600,145 C 1490,185 1310,185 1200,145 C 1090,105 910,105 800,145 C 690,185 510,185 400,145 C 290,105 110,105 0,145 Z" fill="#A970FF" opacity="0.25" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 
@@ -20,9 +20,9 @@
       repeatCount="indefinite" />
   </g>
 
-  <!-- Animated Foreground Wave Group (SMIL Main Banner - Mathematically Loop-Aligned) -->
+  <!-- Animated Foreground Wave Group (SMIL Main Banner - Mathematically Smooth Sine Wave) -->
   <g>
-    <path d="M 0,0 L 1600,0 L 1600,165 C 1480,175 1350,115 1200,155 C 1050,195 920,135 800,165 C 680,175 550,115 400,155 C 250,195 120,135 0,165 Z" fill="url(#bannerGrad)" />
+    <path d="M 0,0 L 1600,0 L 1600,150 C 1490,110 1310,110 1200,150 C 1090,190 910,190 800,150 C 690,110 510,110 400,150 C 290,190 110,190 0,150 Z" fill="url(#bannerGrad)" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 
