@@ -7,39 +7,24 @@
 ## > whoami
 
 ```bash
-vishnu@developer:~$ cat VishnuProfile.java
+vishnu@developer:~$ cat Vishnu.py
 ```
 
-```java
-import java.util.List;
+```python
+class Vishnu:
+    def __init__(self):
+        self.name       = "Vishnu Vardhan Uppari"
+        self.role       = "Software Developer"
+        self.focus      = ["Java / Spring Boot", "Backend Engineering", "REST APIs", "Relational Databases"]
+        self.currently  = "Building robust backend services and containerized workflows"
+        self.superpower = "Designing predictable APIs and optimizing SQL queries"
+        self.belief     = "Design simple, robust systems with high operational predictability"
 
-public record VishnuProfile(
-    String name,
-    String role,
-    String education,
-    List<String> languages,
-    List<String> backend,
-    List<String> frontend,
-    List<String> databases,
-    List<String> tools,
-    List<String> currentlyLearning,
-    String engineeringPrinciple
-) {
+    def say_hi(self):
+        print("Thanks for stopping by - let's build something scalable together 🚀")
 
-    public static final VishnuProfile INSTANCE =
-        new VishnuProfile(
-            "Vishnu Vardhan Uppari",
-            "Software Developer",
-            "B.Tech Information Technology",
-            List.of("Java", "JavaScript", "Python", "SQL"),
-            List.of("Spring Boot", "Node.js", "REST APIs"),
-            List.of("React", "HTML", "CSS"),
-            List.of("PostgreSQL", "MySQL"),
-            List.of("Git", "GitHub", "Docker", "VS Code", "IntelliJ IDEA", "Postman"),
-            List.of("System Design", "Software Architecture", "Cloud Computing", "CI/CD"),
-            "Design clean, predictable APIs and scale backend databases with operational discipline."
-        );
-}
+me = Vishnu()
+me.say_hi()
 ```
 
 ***
