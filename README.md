@@ -121,14 +121,26 @@ me.say_hi()
 
 ## > connect
 
-```bash
-# Establish communication channel
-$ email: uvishnu3568@gmail.com
-$ github: https://github.com/Vishnu3568
-$ linkedin: https://linkedin.com/
-```
+<p align="center">
+  <i>I'm always open to collaborating on backend systems, open source contributions, or just a good tech conversation.</i>
+</p>
 
-```bash
-vishnu@developer:~$ exit
-# DevOS Session Terminated.
-```
+<p align="center">
+  <a href="https://linkedin.com/">
+    <img src="https://img.shields.io/badge/LET'S_CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:uvishnu3568@gmail.com">
+    <img src="https://img.shields.io/badge/DROP_ME_AN_EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://discord.com">
+    <img src="https://img.shields.io/badge/FIND_ME_ON_DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+</p>
+
+<div align="left">
+  <img src="assets/footer_banner.svg?v=2" alt="DevOS Footer Wave" width="100%" />
+</div>
+
+<p align="center">
+  <sub>Designed with 💜 by Vishnu • Last updated 2026 • Open to opportunities</sub>
+</p>

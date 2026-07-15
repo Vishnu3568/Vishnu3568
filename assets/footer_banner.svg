@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="100%" height="100%">
+  <defs>
+    <!-- Blue-to-Purple Gradient matching the design system -->
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" />
+      <stop offset="100%" stop-color="#A970FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Background Wave Group (SMIL Parallax) -->
+  <g>
+    <path d="M 0,80 L 1600,80 L 1600,35 C 1490,55 1380,-5 1200,15 C 1020,35 910,-5 800,35 C 690,55 580,-5 400,15 C 220,35 110,-5 0,35 Z" fill="#A970FF" opacity="0.25" />
+    <animateTransform 
+      attributeName="transform" 
+      attributeType="XML" 
+      type="translate" 
+      from="0 0" 
+      to="-800 0" 
+      dur="20s" 
+      repeatCount="indefinite" />
+  </g>
+
+  <!-- Animated Foreground Wave Group (SMIL Main Banner) -->
+  <g>
+    <path d="M 0,80 L 1600,80 L 1600,40 C 1480,10 1350,70 1200,30 C 1050,-10 920,50 800,20 C 680,10 550,70 400,30 C 250,-10 120,50 0,20 Z" fill="url(#bannerGrad)" />
+    <animateTransform 
+      attributeName="transform" 
+      attributeType="XML" 
+      type="translate" 
+      from="0 0" 
+      to="-800 0" 
+      dur="12s" 
+      repeatCount="indefinite" />
+  </g>
+</svg>
