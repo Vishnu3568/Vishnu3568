@@ -20,9 +20,9 @@
       repeatCount="indefinite" />
   </g>
 
-  <!-- Animated Foreground Wave Group (SMIL Main Banner) -->
+  <!-- Animated Foreground Wave Group (SMIL Main Banner - Mathematically Loop-Aligned) -->
   <g>
-    <path d="M 0,0 L 1600,0 L 1600,145 C 1480,175 1350,115 1200,155 C 1050,195 920,135 800,165 C 680,175 550,115 400,155 C 250,195 120,135 0,165 Z" fill="url(#bannerGrad)" />
+    <path d="M 0,0 L 1600,0 L 1600,165 C 1480,175 1350,115 1200,155 C 1050,195 920,135 800,165 C 680,175 550,115 400,155 C 250,195 120,135 0,165 Z" fill="url(#bannerGrad)" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 

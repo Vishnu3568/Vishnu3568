@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
 
-  <!-- Animated Background Wave Group (SMIL Parallax) -->
+  <!-- Animated Background Wave Group (SMIL Parallax - Mathematically Loop-Aligned) -->
   <g>
     <path d="M 0,80 L 1600,80 L 1600,45 C 1490,65 1380,10 1200,30 C 1020,50 910,15 800,45 C 690,65 580,10 400,30 C 220,50 110,15 0,45 Z" fill="#A970FF" opacity="0.25" />
     <animateTransform 
@@ -20,9 +20,9 @@
       repeatCount="indefinite" />
   </g>
 
-  <!-- Animated Foreground Wave Group (SMIL Main Banner) -->
+  <!-- Animated Foreground Wave Group (SMIL Main Banner - Mathematically Loop-Aligned) -->
   <g>
-    <path d="M 0,80 L 1600,80 L 1600,50 C 1480,25 1350,75 1200,45 C 1055,15 920,65 800,35 C 680,25 550,75 400,45 C 255,15 120,65 0,35 Z" fill="url(#bannerGrad)" />
+    <path d="M 0,80 L 1600,80 L 1600,35 C 1480,15 1350,75 1200,45 C 1055,15 920,65 800,35 C 680,15 550,75 400,45 C 255,15 120,65 0,35 Z" fill="url(#bannerGrad)" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 
