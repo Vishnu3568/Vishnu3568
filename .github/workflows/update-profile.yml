@@ -26,14 +26,20 @@ jobs:
       - name: Update GitHub Activity Log
         run: node scripts/update-activity.js
 
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md profile-3d-contrib/
           if git diff --staged --quiet; then
-            echo "No changes in activity log."
+            echo "No changes in activity log or 3D graph."
           else
-            git commit -m "docs: auto-update recent activity log [skip ci]"
+            git commit -m "docs: auto-update recent activity log & 3D contribution graph [skip ci]"
             git push
           fi

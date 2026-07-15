@@ -81,10 +81,10 @@ me.say_hi()
 
 ***
 
-## > contribution_graph
+## > contribution_3d
 
 <div align="left">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishnu3568&bg_color=0D1117&color=58A6FF&line=A970FF&point=58A6FF&area=true&hide_border=true&custom_title=Vishnu%20Vardhan%20Uppari's%20Contribution%20Graph" alt="Vishnu's Contribution Graph" width="100%" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 </div>
 
 ***
