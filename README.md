@@ -1,6 +1,4 @@
-<div align="left">
-  <img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
-</div>
+<img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
 
 ***
 
@@ -135,11 +133,7 @@ me.say_hi()
     <img src="https://img.shields.io/badge/FIND_ME_ON_DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
 </p>
-
-<div align="left">
-  <img src="assets/footer_banner.svg?v=2" alt="DevOS Footer Wave" width="100%" />
-</div>
-
+<img src="assets/footer_banner.svg?v=2" alt="DevOS Footer Wave" width="100%" />
 <p align="center">
   <sub>Designed with 💜 by Vishnu • Last updated 2026 • Open to opportunities</sub>
 </p>

@@ -9,7 +9,7 @@
 
   <!-- Animated Background Wave Group (SMIL Parallax) -->
   <g>
-    <path d="M 0,80 L 1600,80 L 1600,35 C 1490,55 1380,-5 1200,15 C 1020,35 910,-5 800,35 C 690,55 580,-5 400,15 C 220,35 110,-5 0,35 Z" fill="#A970FF" opacity="0.25" />
+    <path d="M 0,80 L 1600,80 L 1600,45 C 1490,65 1380,10 1200,30 C 1020,50 910,15 800,45 C 690,65 580,10 400,30 C 220,50 110,15 0,45 Z" fill="#A970FF" opacity="0.25" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 
@@ -22,7 +22,7 @@
 
   <!-- Animated Foreground Wave Group (SMIL Main Banner) -->
   <g>
-    <path d="M 0,80 L 1600,80 L 1600,40 C 1480,10 1350,70 1200,30 C 1050,-10 920,50 800,20 C 680,10 550,70 400,30 C 250,-10 120,50 0,20 Z" fill="url(#bannerGrad)" />
+    <path d="M 0,80 L 1600,80 L 1600,50 C 1480,25 1350,75 1200,45 C 1055,15 920,65 800,35 C 680,25 550,75 400,45 C 255,15 120,65 0,35 Z" fill="url(#bannerGrad)" />
     <animateTransform 
       attributeName="transform" 
       attributeType="XML" 
