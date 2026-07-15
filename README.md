@@ -75,8 +75,16 @@ me.say_hi()
 
 ## > github_stats
 
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishnu3568&theme=dark&background=0D1117&ring=A970FF&fire=A970FF&currStreakNum=58A6FF&sideNums=58A6FF&sideLabels=F0F6FC&dates=8B949E&currStreakLabel=58A6FF&border=30363D&stroke=30363D" alt="Vishnu's GitHub Streak" />
+</div>
+
+***
+
+## > contribution_graph
+
 <div align="left">
-  <img src="assets/stats_dashboard.svg?v=2" alt="Workspace Metrics Dashboard" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishnu3568&bg_color=0D1117&color=58A6FF&line=A970FF&point=58A6FF&area=true&hide_border=true&custom_title=Vishnu%20Vardhan%20Uppari's%20Contribution%20Graph" alt="Vishnu's Contribution Graph" width="100%" />
 </div>
 
 ***
