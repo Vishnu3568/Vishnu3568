@@ -6,7 +6,41 @@
 
 ## > whoami
 
-A systems-focused software engineer specializing in backend application architectures, transactional database engines, and robust web services. Driven by clean code principles, operational reliability, and terminal-native developer productivity.
+```bash
+vishnu@developer:~$ cat VishnuProfile.java
+```
+
+```java
+import java.util.List;
+
+public record VishnuProfile(
+    String name,
+    String role,
+    String education,
+    List<String> languages,
+    List<String> backend,
+    List<String> frontend,
+    List<String> databases,
+    List<String> tools,
+    List<String> currentlyLearning,
+    String engineeringPrinciple
+) {
+
+    public static final VishnuProfile INSTANCE =
+        new VishnuProfile(
+            "Vishnu Vardhan Uppari",
+            "Software Developer",
+            "B.Tech Information Technology",
+            List.of("Java", "JavaScript", "Python", "SQL"),
+            List.of("Spring Boot", "Node.js", "REST APIs"),
+            List.of("React", "HTML", "CSS"),
+            List.of("PostgreSQL", "MySQL"),
+            List.of("Git", "GitHub", "Docker", "VS Code", "IntelliJ IDEA", "Postman"),
+            List.of("System Design", "Software Architecture", "Cloud Computing", "CI/CD"),
+            "Design clean, predictable APIs and scale backend databases with operational discipline."
+        );
+}
+```
 
 ***
 
