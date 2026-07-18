@@ -150,17 +150,17 @@ me.say_hi()
 
 ## > projects
 
-`[01]` **ExpenseIQ** — Full-stack personal financial ledger and budgeting platform.
-- **Stack**: `React` | `Node.js` | `Express` | `PostgreSQL` | `Prisma`
-- **Source**: [github.com/Vishnu3568/ExpenseIQ](https://github.com/Vishnu3568)
+`[01]` **Apex Excel AI** — High-performance pharmaceutical data integration & anomaly detection platform.
+- **Stack**: `FastAPI` | `Google Gemini API` | `MongoDB` | `Pandas` | `GridFS`
+- **Source**: [github.com/Vishnu3568/7-Apex-Excel-AI](https://github.com/Vishnu3568/7-Apex-Excel-AI-main)
 
-`[02]` **SkillMatrix LMS** — Learning management platform with role-based REST APIs.
-- **Stack**: `Java` | `Spring Boot` | `React` | `MySQL`
-- **Source**: [github.com/Vishnu3568/SkillMatrix-LMS](https://github.com/Vishnu3568)
+`[02]` **CV Enhancer AI** — Full-stack AI-powered resume enhancement platform.
+- **Stack**: `FastAPI` | `React` | `OpenAI API` | `python-docx` | `PyPDF2`
+- **Source**: [github.com/Vishnu3568/CV-Enhancer-ai](https://github.com/Vishnu3568/CV-Enhancer-ai)
 
-`[03]` **Binance Futures Trading Bot** — Algorithmic client executing WebSocket telemetry trades.
-- **Stack**: `Node.js` | `WebSockets` | `REST APIs`
-- **Source**: [github.com/Vishnu3568/Binance-Bot](https://github.com/Vishnu3568)
+`[03]` **PrimeTrade Sentiment Analysis** — Data science pipeline analyzing BTC trader performance vs market sentiment.
+- **Stack**: `Python` | `Jupyter` | `Pandas` | `Scikit-Learn` | `Seaborn` | `Statsmodels`
+- **Source**: [github.com/Vishnu3568/primetrade-sentiment-analysis](https://github.com/Vishnu3568/primetrade-sentiment-analysis)
 
 ***
 
