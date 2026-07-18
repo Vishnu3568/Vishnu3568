@@ -18,17 +18,17 @@
   <g transform="translate(40, 30)">
     <text x="0" y="0" class="mono-text panel-title">[ TECH_ALLOCATION ]</text>
     
-    <!-- Java Backend -->
-    <text x="0" y="30" class="mono-text text-label">Java / Spring Boot</text>
-    <text x="200" y="30" class="mono-text text-bold" text-anchor="end">50%</text>
+    <!-- Python Backend -->
+    <text x="0" y="30" class="mono-text text-label">Python / FastAPI</text>
+    <text x="200" y="30" class="mono-text text-bold" text-anchor="end">45%</text>
     <rect x="0" y="38" width="200" height="6" class="bar-bg" />
-    <rect x="0" y="38" width="100" height="6" fill="#58A6FF" rx="2" ry="2" />
+    <rect x="0" y="38" width="90" height="6" fill="#58A6FF" rx="2" ry="2" />
 
-    <!-- Web Technology -->
-    <text x="0" y="75" class="mono-text text-label">React / Frontend</text>
-    <text x="200" y="75" class="mono-text text-bold" text-anchor="end">30%</text>
+    <!-- AI Agents & RAG -->
+    <text x="0" y="75" class="mono-text text-label">AI Agents & RAG</text>
+    <text x="200" y="75" class="mono-text text-bold" text-anchor="end">35%</text>
     <rect x="0" y="83" width="200" height="6" class="bar-bg" />
-    <rect x="0" y="83" width="60" height="6" fill="#A970FF" rx="2" ry="2" />
+    <rect x="0" y="83" width="70" height="6" fill="#A970FF" rx="2" ry="2" />
 
     <!-- DevOps & Database -->
     <text x="0" y="120" class="mono-text text-label">Docker / SQL / Git</text>
@@ -36,11 +36,11 @@
     <rect x="0" y="128" width="200" height="6" class="bar-bg" />
     <rect x="0" y="128" width="30" height="6" fill="#FFB347" rx="2" ry="2" />
 
-    <!-- AI Integrations -->
-    <text x="0" y="165" class="mono-text text-label">AI / REST APIs</text>
-    <text x="200" y="165" class="mono-text text-bold" text-anchor="end">5%</text>
+    <!-- LLMs & Vector DBs -->
+    <text x="0" y="165" class="mono-text text-label">LLMs & Vector DBs</text>
+    <text x="200" y="165" class="mono-text text-bold" text-anchor="end">10%</text>
     <rect x="0" y="173" width="200" height="6" class="bar-bg" />
-    <rect x="0" y="173" width="10" height="6" fill="#8B949E" rx="2" ry="2" />
+    <rect x="0" y="173" width="20" height="6" fill="#8B949E" rx="2" ry="2" />
   </g>
 
   <!-- Dashed Vertical Column Divider 1 (x: 290) -->
@@ -60,15 +60,15 @@
 
       <!-- Row 1 -->
       <text x="0" y="42" class="mono-text text-label">Active Stack</text>
-      <text x="170" y="42" class="mono-text text-code" text-anchor="end" fill="#58A6FF">Full Stack</text>
+      <text x="170" y="42" class="mono-text text-code" text-anchor="end" fill="#58A6FF">Python / AI</text>
 
       <!-- Row 2 -->
       <text x="0" y="67" class="mono-text text-label">Primary Paradigm</text>
-      <text x="170" y="67" class="mono-text text-code" text-anchor="end" fill="#A970FF">OOP/REST</text>
+      <text x="170" y="67" class="mono-text text-code" text-anchor="end" fill="#A970FF">OOP / Async</text>
 
       <!-- Row 3 -->
       <text x="0" y="92" class="mono-text text-label">DB Engine</text>
-      <text x="170" y="92" class="mono-text text-code" text-anchor="end" fill="#F0F6FC">PostgreSQL</text>
+      <text x="170" y="92" class="mono-text text-code" text-anchor="end" fill="#F0F6FC">SQL / Vector</text>
 
       <!-- Row 4 -->
       <text x="0" y="117" class="mono-text text-label">Environments</text>
@@ -90,29 +90,29 @@
     <!-- Row 1 -->
     <g transform="translate(0, 30)">
       <text x="0" y="9" class="mono-text text-code" fill="#58A6FF">[x]</text>
-      <text x="28" y="9" class="mono-text text-bold">REST Services</text>
-      <text x="28" y="24" class="mono-text text-muted">JWT Auth / APIs</text>
+      <text x="28" y="9" class="mono-text text-bold">FastAPI Services</text>
+      <text x="28" y="24" class="mono-text text-muted">Async / REST APIs</text>
     </g>
 
     <!-- Row 2 -->
     <g transform="translate(0, 75)">
       <text x="0" y="9" class="mono-text text-code" fill="#58A6FF">[x]</text>
-      <text x="28" y="9" class="mono-text text-bold">Relational DB</text>
-      <text x="28" y="24" class="mono-text text-muted">Schema / Queries</text>
+      <text x="28" y="9" class="mono-text text-bold">Vector &amp; Rel DB</text>
+      <text x="28" y="24" class="mono-text text-muted">Schema / Embeddings</text>
     </g>
 
     <!-- Row 3 -->
     <g transform="translate(0, 120)">
-      <text x="0" y="9" class="mono-text text-code" fill="#58A6FF">[x]</text>
-      <text x="28" y="9" class="mono-text text-bold">Containers</text>
-      <text x="28" y="24" class="mono-text text-muted">Dockerized Runs</text>
+      <text x="0" y="9" class="mono-text text-code" fill="#8B949E">[ ]</text>
+      <text x="28" y="9" class="mono-text text-bold" fill="#8B949E">Agent Workflows</text>
+      <text x="28" y="24" class="mono-text text-muted">LangChain / CrewAI</text>
     </g>
 
     <!-- Row 4 -->
     <g transform="translate(0, 165)">
       <text x="0" y="9" class="mono-text text-code" fill="#8B949E">[ ]</text>
-      <text x="28" y="9" class="mono-text text-bold" fill="#8B949E">CI/CD Deploy</text>
-      <text x="28" y="24" class="mono-text text-muted">Action Pipelines</text>
+      <text x="28" y="9" class="mono-text text-bold" fill="#8B949E">Dockerized Env</text>
+      <text x="28" y="24" class="mono-text text-muted">Containerized Runs</text>
     </g>
   </g>
 </svg>

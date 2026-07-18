@@ -11,15 +11,56 @@ vishnu@developer:~$ cat Vishnu.py
 ```python
 class Vishnu:
     def __init__(self):
-        self.name       = "Vishnu Vardhan Uppari"
-        self.role       = "Software Developer"
-        self.focus      = ["Java / Spring Boot", "Backend Engineering", "REST APIs", "Relational Databases"]
-        self.currently  = "Building robust backend services and containerized workflows"
-        self.superpower = "Designing predictable APIs and optimizing SQL queries"
-        self.belief     = "Design simple, robust systems with high operational predictability"
+        self.name = "Vishnu Vardhan Uppari"
+
+        self.role = "Aspiring AI Engineer"
+
+        self.currently = (
+            "Learning Python, software engineering fundamentals, "
+            "and building AI applications one project at a time."
+        )
+
+        self.focus = [
+            "Python",
+            "AI Engineering",
+            "LLMs",
+            "Backend Development",
+            "Problem Solving"
+        ]
+
+        self.learning = [
+            "FastAPI",
+            "SQL",
+            "Docker",
+            "RAG",
+            "LangChain",
+            "AI Agents"
+        ]
+
+        self.roadmap = [
+            "Python",
+            "FastAPI",
+            "SQL",
+            "Git",
+            "Docker",
+            "LLMs",
+            "RAG",
+            "AI Agents",
+            "Production AI"
+        ]
+
+        self.goal = (
+            "Build production-ready AI applications and contribute "
+            "to products that solve real-world problems."
+        )
+
+        self.belief = (
+            "Consistency compounds. Learn deeply, build often, and "
+            "understand every line of code."
+        )
 
     def say_hi(self):
-        print("Thanks for stopping by - let's build something scalable together 🚀")
+        print("Welcome to my GitHub! Follow my journey from beginner to AI Engineer 🚀")
 
 me = Vishnu()
 me.say_hi()
@@ -29,9 +70,23 @@ me.say_hi()
 
 ## > current_focus
 
-- ⚙️ Developing high-throughput enterprise APIs with **Spring Boot** and **Java**.
-- 📦 Architecting containerized delivery pipelines using **Docker** and **GitHub Actions**.
-- 🛡️ Implementing secure token-based user sessions and role-based authentication policies.
+- 🐍 Engineering robust backend APIs and microservices using **Python** and **FastAPI**.
+- 🤖 Integrating Large Language Models (**LLMs**) and orchestrating autonomous **AI Agents**.
+- 🧠 Designing Retrieval-Augmented Generation (**RAG**) workflows and optimizing **SQL** databases.
+
+***
+
+## > roadmap
+
+- [x] **Python** (OOP, Design Patterns, Scripting)
+- [/] **FastAPI** (Async APIs, Web Frameworks)
+- [/] **SQL** (PostgreSQL, Database Design)
+- [/] **Git** (Version Control, Collaborative Flows)
+- [ ] **Docker** (Containerization, Deployments)
+- [ ] **LLMs** (Prompting, Fine-tuning, Integrations)
+- [ ] **RAG** (Vector DBs, Semantic Search)
+- [ ] **AI Agents** (LangChain, CrewAI, AutoGen)
+- [ ] **Production AI** (Deploying, Scaling, Monitoring)
 
 ***
 
@@ -39,17 +94,23 @@ me.say_hi()
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sqlite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 **Backend & APIs**
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-0052CC?style=for-the-badge&logo=postman&logoColor=white)
+
+**AI & Orchestration**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logo=chainlink&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)
+
 
 **Frontend & Databases**
 
