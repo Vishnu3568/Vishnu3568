@@ -170,10 +170,11 @@ me.say_hi()
 
 | Timestamp | CLI Command / Activity |
 | :--- | :--- |
+| `[Aug 11, 2026]` | `gh repo fork HarshalShah0508/EHR-Population-Health-Analysis` <br> _↳ Starred and tracked project_ |
+| `[Aug 11, 2026]` | `gh repo fork HarshalShah0508/AI-Interview-Platform` <br> _↳ Starred and tracked project_ |
+| `[Aug 11, 2026]` | `gh repo fork HarshalShah0508/reddit-echo-chamber` <br> _↳ Starred and tracked project_ |
 | `[Aug 9, 2026]` | `git checkout -b main` <br> _↳ Created branch in elevance-skills-genai-internship_ |
 | `[Aug 4, 2026]` | `git checkout -b main` <br> _↳ Created branch in Foundations-of-LLM_ |
-| `[Aug 3, 2026]` | `git checkout -b main` <br> _↳ Created branch in End-To-End-Gemini-Project_ |
-| `[Aug 3, 2026]` | `git checkout -b main` <br> _↳ Created branch in Sentinel-NLP_ |
 
 <!-- END_ACTIVITY -->
 
