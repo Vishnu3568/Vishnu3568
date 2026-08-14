@@ -170,16 +170,8 @@ me.say_hi()
 
 ## > contribution_graph
 
-<div align="right">
-  <a href="https://github.com/Vishnu3568#contribution_graph" title="Refresh & replay graph animation">
-    <img src="https://img.shields.io/badge/↻_Reload-0D1117?style=flat-square&logoColor=58A6FF&labelColor=161B22&color=58A6FF" alt="Reload Graph" />
-  </a>
-</div>
-
 <div align="center">
-  <a href="https://github.com/Vishnu3568#contribution_graph" title="Vishnu's Contribution Graph">
-    <img src="assets/contribution_graph.svg" alt="Vishnu's Contribution Graph" width="100%" />
-  </a>
+  <img src="assets/contribution_graph.svg" alt="Vishnu's Contribution Graph" width="100%" />
 </div>
 
 ***
