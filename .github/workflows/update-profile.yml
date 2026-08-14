@@ -23,11 +23,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Update GitHub Activity Log
-        run: node scripts/update-activity.js
-
       - name: Update GitHub Streak Stats
         run: node scripts/update-streak.js
+
+      - name: Update Contribution Graph
+        run: node scripts/update-graph.js
 
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -39,10 +39,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md profile-3d-contrib/ assets/streak_stats.svg
+          git add README.md profile-3d-contrib/ assets/streak_stats.svg assets/contribution_graph.svg
           if git diff --staged --quiet; then
-            echo "No changes in activity log or 3D graph."
+            echo "No changes in contribution graphs or streak stats."
           else
-            git commit -m "docs: auto-update recent activity log & 3D contribution graph [skip ci]"
+            git commit -m "docs: auto-update contribution graphs & streak stats [skip ci]"
             git push
           fi
