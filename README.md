@@ -135,7 +135,7 @@ me.say_hi()
 ## > github_stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Vishnu3568&theme=dark&background=0D1117&ring=A970FF&fire=A970FF&currStreakNum=58A6FF&sideNums=58A6FF&sideLabels=F0F6FC&dates=8B949E&currStreakLabel=58A6FF&border=30363D&stroke=30363D" alt="Vishnu's GitHub Streak" />
+  <img src="assets/streak_stats.svg" alt="Vishnu's GitHub Streak" />
 </div>
 
 ***
