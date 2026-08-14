@@ -150,21 +150,21 @@ me.say_hi()
 
 ## > projects
 
-`[01]` **ForgeFlow AI** — Compiler-driven application generator transforming natural language into validated, executable software blueprints with automated schema repair and sandbox validation.
+`[01]` **Apex Excel AI** — High-performance pharmaceutical data integration & irregularity detection platform automating schema unification and anomaly detection.
+- **Stack**: `FastAPI` | `Google Gemini API` | `MongoDB` | `Pandas` | `GridFS`
+- **Source**: [github.com/Vishnu3568/elevance-skills-genai-internship](https://github.com/Vishnu3568/elevance-skills-genai-internship)
+
+`[02]` **ForgeFlow AI** — Compiler-driven application generator transforming natural language into validated, executable software blueprints with automated schema repair and sandbox validation.
 - **Stack**: `FastAPI` | `LLM Agents` | `TypeScript` | `SQLite Sandbox` | `Pydantic`
 - **Source**: [github.com/Vishnu3568/Compiler-Driven-Application-Generator](https://github.com/Vishnu3568/Compiler-Driven-Application-Generator)
 
-`[02]` **CV Enhancer AI** — Full-stack AI-powered resume parsing and content enhancement platform with template generation.
+`[03]` **CV Enhancer AI** — Full-stack AI-powered resume parsing and content enhancement platform with template generation.
 - **Stack**: `FastAPI` | `React` | `OpenAI API` | `python-docx` | `PyPDF2`
 - **Source**: [github.com/Vishnu3568/CV-Enhancer-ai](https://github.com/Vishnu3568/CV-Enhancer-ai)
 
-`[03]` **PrimeTrade Sentiment Analysis** — Quantitative data science pipeline analyzing Bitcoin trader performance vs. Fear & Greed sentiment regimes.
+`[04]` **PrimeTrade Sentiment Analysis** — Quantitative data science pipeline analyzing Bitcoin trader performance vs. Fear & Greed sentiment regimes.
 - **Stack**: `Python` | `Scikit-Learn` | `Pandas` | `Seaborn` | `Statsmodels`
 - **Source**: [github.com/Vishnu3568/primetrade-sentiment-analysis](https://github.com/Vishnu3568/primetrade-sentiment-analysis)
-
-`[04]` **End-To-End Gemini LLM & Vision** — Multimodal Generative AI application integrating Gemini 2.0/1.5 Pro for text Q&A and vision intelligence.
-- **Stack**: `Python` | `Google Gemini API` | `Streamlit` | `Pillow`
-- **Source**: [github.com/Vishnu3568/End-To-End-Gemini-Project](https://github.com/Vishnu3568/End-To-End-Gemini-Project)
 
 ***
 
