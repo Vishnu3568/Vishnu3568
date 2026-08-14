@@ -24,10 +24,18 @@ function fetchGraphSvg() {
   });
 }
 
+function polishSvgAnimation(svgString) {
+  // Enhance line drawing animation speed and smoothness
+  return svgString
+    .replace('animation: dash 5s ease-in-out forwards;', 'animation: dash 3s cubic-bezier(0.4, 0, 0.2, 1) forwards;')
+    .replace('animation: blink 1s ease-in-out forwards;', 'animation: blink 1.2s ease-in-out forwards;');
+}
+
 async function updateGraph() {
   try {
     console.log(`Fetching latest contribution graph SVG for ${USERNAME}...`);
-    const svgData = await fetchGraphSvg();
+    let svgData = await fetchGraphSvg();
+    svgData = polishSvgAnimation(svgData);
 
     const assetsDir = path.dirname(GRAPH_SVG_PATH);
     if (!fs.existsSync(assetsDir)) {
@@ -35,7 +43,7 @@ async function updateGraph() {
     }
 
     fs.writeFileSync(GRAPH_SVG_PATH, svgData, 'utf8');
-    console.log('Successfully updated assets/contribution_graph.svg!');
+    console.log('Successfully updated assets/contribution_graph.svg with enhanced animation!');
   } catch (error) {
     console.warn('Warning: Could not fetch new contribution graph SVG:', error.message);
     if (fs.existsSync(GRAPH_SVG_PATH)) {

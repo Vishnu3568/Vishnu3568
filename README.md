@@ -168,10 +168,12 @@ me.say_hi()
 
 ***
 
-## > contribution_graph
+## > contribution_graph &nbsp; [![Refresh Stats & Replay](https://img.shields.io/badge/↻_Replay_Animation-0D1117?style=flat-square&logo=githubactions&logoColor=58A6FF&labelColor=161B22&color=58A6FF)](https://github.com/Vishnu3568/Vishnu3568/actions/workflows/update-profile.yml "Click to refresh stats & replay graph animation")
 
 <div align="center">
-  <img src="assets/contribution_graph.svg" alt="Vishnu's Contribution Graph" width="100%" />
+  <a href="https://github.com/Vishnu3568/Vishnu3568/actions/workflows/update-profile.yml" title="Click to trigger workflow & refresh graph">
+    <img src="assets/contribution_graph.svg" alt="Vishnu's Contribution Graph" width="100%" />
+  </a>
 </div>
 
 ***
