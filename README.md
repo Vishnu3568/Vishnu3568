@@ -92,43 +92,41 @@ me.say_hi()
 
 ## > tech_stack
 
-**Languages**
-
+**Languages & Fundamentals**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sqlite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-**Backend & APIs**
+**AI Engineering & Orchestration**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logo=chainlink&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![RAG & Agents](https://img.shields.io/badge/RAG_%26_Agents-58A6FF?style=for-the-badge&logo=robot&logoColor=white)
 
+**Backend & APIs**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-0052CC?style=for-the-badge&logo=postman&logoColor=white)
 
-**AI & Orchestration**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logo=chainlink&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)
-
-
-**Frontend & Databases**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Databases & Storage**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
-**Tools & DevOps**
-
+**DevOps & Engineering Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+<br />
+
+<div align="center">
+  <img src="assets/stats_dashboard.svg" alt="DevOS Workspace Metrics & Tech Allocation" width="100%" />
+</div>
 
 ***
 
@@ -151,18 +149,22 @@ me.say_hi()
 ## > projects
 
 `[01]` **Apex Excel AI** — High-performance pharmaceutical data integration & irregularity detection platform automating schema unification and anomaly detection.
+- **Architecture**: Automated Schema Normalization $\rightarrow$ Gemini Multimodal LLM Extraction $\rightarrow$ GridFS / MongoDB Document Store $\rightarrow$ Real-time Anomaly Reports.
 - **Stack**: `FastAPI` | `Google Gemini API` | `MongoDB` | `Pandas` | `GridFS`
 - **Source**: [github.com/Vishnu3568/elevance-skills-genai-internship](https://github.com/Vishnu3568/elevance-skills-genai-internship)
 
 `[02]` **ForgeFlow AI** — Compiler-driven application generator transforming natural language into validated, executable software blueprints with automated schema repair and sandbox validation.
+- **Architecture**: Multi-stage Agent Pipeline $\rightarrow$ AST Syntax & Schema Validation $\rightarrow$ Isolated SQLite Execution Sandbox $\rightarrow$ Self-Correcting Code Generation.
 - **Stack**: `FastAPI` | `LLM Agents` | `TypeScript` | `SQLite Sandbox` | `Pydantic`
 - **Source**: [github.com/Vishnu3568/Compiler-Driven-Application-Generator](https://github.com/Vishnu3568/Compiler-Driven-Application-Generator)
 
 `[03]` **CV Enhancer AI** — Full-stack AI-powered resume parsing and content enhancement platform with template generation.
+- **Architecture**: Document Stream Extraction (`docx`/`pdf`) $\rightarrow$ Contextual Prompt Engineering $\rightarrow$ Structured Output Formatting $\rightarrow$ Downloadable Artifacts.
 - **Stack**: `FastAPI` | `React` | `OpenAI API` | `python-docx` | `PyPDF2`
 - **Source**: [github.com/Vishnu3568/CV-Enhancer-ai](https://github.com/Vishnu3568/CV-Enhancer-ai)
 
 `[04]` **PrimeTrade Sentiment Analysis** — Quantitative data science pipeline analyzing Bitcoin trader performance vs. Fear & Greed sentiment regimes.
+- **Architecture**: Time-series Regimes $\rightarrow$ Behavioral Distribution Clustering $\rightarrow$ Statistical Hypothesis Testing $\rightarrow$ Predictive Modeling.
 - **Stack**: `Python` | `Scikit-Learn` | `Pandas` | `Seaborn` | `Statsmodels`
 - **Source**: [github.com/Vishnu3568/primetrade-sentiment-analysis](https://github.com/Vishnu3568/primetrade-sentiment-analysis)
 
