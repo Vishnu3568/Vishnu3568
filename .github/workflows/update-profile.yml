@@ -53,11 +53,23 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#A970FF
 
+      - name: Generate Arcade Contribution Graph Animations
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'bomberman'
+
+      - name: Sync Arcade SVGs to Assets
+        run: |
+          if [ -d "dist" ]; then
+            cp dist/*.svg assets/ 2>/dev/null || true
+          fi
+
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: auto-update contribution graphs & streak stats [skip ci]"
-          file_pattern: "README.md profile-3d-contrib/* assets/streak_stats.svg assets/contribution_graph.svg assets/github-contribution-grid-snake*.svg"
+          file_pattern: "README.md profile-3d-contrib/* assets/*.svg"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"

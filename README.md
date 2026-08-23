@@ -168,10 +168,14 @@ me.say_hi()
 
 ***
 
-## > contribution_graph
+## > animated_contribution_graphs
+
+<p align="center">
+  <b>some animated contribution graphs ༼ つ ◕_◕ ༽つ</b>
+</p>
 
 <div align="center">
-  <img src="assets/contribution_graph.svg" alt="Vishnu's Contribution Graph" width="100%" />
+  <img src="assets/bomberman.svg" alt="Bomberman Animated Contribution Graph" width="100%" />
 </div>
 
 ***
