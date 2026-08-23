@@ -168,17 +168,6 @@ me.say_hi()
 
 ***
 
-## > animated_contribution_graphs
-
-<p align="center">
-  <b>some animated contribution graphs ༼ つ ◕_◕ ༽つ</b>
-</p>
-
-<div align="center">
-  <img src="assets/bomberman.svg" alt="Bomberman Animated Contribution Graph" width="100%" />
-</div>
-
-***
 
 ## > contribution_snake
 
