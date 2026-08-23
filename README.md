@@ -176,6 +176,25 @@ me.say_hi()
 
 ***
 
+## > contribution_snake
+
+### 🐍 THE DARK MARK... WAIT, NO — THE CONTRIBUTION BASILISK
+
+<img src="assets/rainbow_line.svg" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="assets/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
+<p align="center">
+  🐍 <i>"Not Slytherin, not Slytherin..." — The Sorting Hat</i><br />
+  🦁 <i>"GRYFFINDOR!" — And so it was decided</i>
+</p>
+
+***
+
 ## > connect
 
 <p align="center">
