@@ -1,5 +1,17 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A970FF,100:58A6FF&height=190&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=38&fontColor=FFFFFF&desc=%E2%9A%A1%20AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&descSize=15&descAlignY=60&descAlign=50&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A970FF,100:58A6FF&height=180&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=42&fontColor=FFFFFF&animation=fadeIn" width="100%" />
+</p>
+
+<h1 align="center">Hi 👋, I'm Vishnu Vardhan</h1>
+
+<p align="center">
+  🚀 <b>Aspiring AI Engineer</b> • 🤖 <b>LLMs &amp; AI Agents</b> • 🐍 <b>Python &amp; FastAPI</b> • 🧠 <b>RAG &amp; Vector Databases</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Vishnu3568&label=PROFILE+VIEWS&style=flat-square&color=58A6FF&labelColor=161B22" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Vishnu3568?label=FOLLOWERS&style=flat-square&color=A970FF&labelColor=161B22" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Vishnu3568?label=STARS&style=flat-square&color=58A6FF&labelColor=161B22" alt="Stars" />
 </p>
 
 ***
