@@ -1,4 +1,6 @@
-<img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=42&subtext=AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&subfontSize=18&animation=fadeIn" width="100%" />
+</p>
 
 ***
 
@@ -213,7 +215,9 @@ me.say_hi()
     <img src="https://img.shields.io/badge/FIND_ME_ON_DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
 </p>
-<img src="assets/footer_banner.svg?v=2" alt="DevOS Footer Wave" width="100%" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
+</p>
 <p align="center">
   <sub>Designed with 💜 by Vishnu • Last updated 2026 • Open to opportunities</sub>
 </p>
