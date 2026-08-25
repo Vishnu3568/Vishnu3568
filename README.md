@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Vishnu%20Vardhan%20Uppari&subtext=Aspiring%20AI%20Engineer%20•%20Building%20Intelligent%20Systems%20🚀&animation=fadeIn&type=waving&color=gradient&height=180&fontSize=38&subfontSize=16" width="100%" />
-</p>
-
 <img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
 
 ***
