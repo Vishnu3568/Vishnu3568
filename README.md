@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=42&desc=AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&descSize=18&descAlignY=65&descAlign=50&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:0070F3&height=240&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=38&desc=AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&descSize=15&descAlignY=55&descAlign=50&animation=fadeIn" width="100%" />
 </p>
 
 ***
@@ -216,7 +216,7 @@ me.say_hi()
   </a>
 </p>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:0070F3&height=120&section=footer" width="100%" />
 </p>
 <p align="center">
   <sub>Designed with 💜 by Vishnu • Last updated 2026 • Open to opportunities</sub>
