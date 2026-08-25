@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?text=Vishnu%20Vardhan%20Uppari&subtext=Aspiring%20AI%20Engineer%20•%20Building%20Intelligent%20Systems%20🚀&animation=fadeIn&type=waving&color=gradient&height=180&fontSize=38&subfontSize=16" width="100%" />
+</p>
+
 <img src="assets/terminal_banner.svg?v=2" alt="DevOS Terminal Banner" width="100%" />
 
 ***
@@ -135,6 +139,12 @@ me.say_hi()
 <div align="center">
   <img src="assets/streak_stats.svg" alt="Vishnu's GitHub Streak" />
 </div>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vishnu3568&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=A970FF&text_color=8B949E" alt="Vishnu's GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishnu3568&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E" alt="Top Languages" />
+</p>
 
 ***
 
