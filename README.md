@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=42&subtext=AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&subfontSize=18&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Vishnu%20Vardhan%20Uppari&fontSize=42&desc=AI%20Engineer%20in%20Progress%20•%20Learning%20in%20Public%20•%20Building%20Every%20Day&descSize=18&descAlignY=65&descAlign=50&animation=fadeIn" width="100%" />
 </p>
 
 ***
