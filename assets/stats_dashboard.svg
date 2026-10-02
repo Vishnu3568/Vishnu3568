@@ -103,9 +103,9 @@
 
     <!-- Row 3 -->
     <g transform="translate(0, 120)">
-      <text x="0" y="9" class="mono-text text-code" fill="#8B949E">[ ]</text>
-      <text x="28" y="9" class="mono-text text-bold" fill="#8B949E">Agent Workflows</text>
-      <text x="28" y="24" class="mono-text text-muted">LangChain / CrewAI</text>
+      <text x="0" y="9" class="mono-text text-code" fill="#58A6FF">[x]</text>
+      <text x="28" y="9" class="mono-text text-bold">Agent Workflows</text>
+      <text x="28" y="24" class="mono-text text-muted">LangChain / LangGraph</text>
     </g>
 
     <!-- Row 4 -->
