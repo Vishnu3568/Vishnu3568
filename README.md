@@ -150,7 +150,6 @@ me.say_hi()
 - **Architecture**: Automated Schema Normalization $\rightarrow$ Gemini Multimodal LLM Extraction $\rightarrow$ GridFS / MongoDB Document Store $\rightarrow$ Real-time Anomaly Reports.
 - **Performance**: Zero-shot multimodal extraction with schema anomaly classification across heterogeneous datasets.
 - **Stack**: `FastAPI` | `Google Gemini API` | `MongoDB` | `Pandas` | `GridFS`
-- **Source**: [github.com/Vishnu3568/elevance-skills-genai-internship](https://github.com/Vishnu3568/elevance-skills-genai-internship)
 
 `[02]` **ForgeFlow AI** — Compiler-driven application generator transforming natural language into validated, executable software blueprints with automated schema repair and sandbox validation.
 
@@ -166,19 +165,16 @@ graph LR
 
 - **Performance**: Sub-100ms AST schema validation in sandboxed SQLite execution with automated self-correction.
 - **Stack**: `FastAPI` | `LLM Agents` | `TypeScript` | `SQLite Sandbox` | `Pydantic`
-- **Source**: [github.com/Vishnu3568/Compiler-Driven-Application-Generator](https://github.com/Vishnu3568/Compiler-Driven-Application-Generator)
 
 `[03]` **CV Enhancer AI** — Full-stack AI-powered resume parsing and content enhancement platform with template generation.
 - **Architecture**: Document Stream Extraction (`docx`/`pdf`) $\rightarrow$ Contextual Prompt Engineering $\rightarrow$ Structured Output Formatting $\rightarrow$ Downloadable Artifacts.
 - **Performance**: Structured Pydantic extraction ensuring 100% schema compliance for LaTeX & Markdown resume generation.
 - **Stack**: `FastAPI` | `React` | `OpenAI API` | `python-docx` | `PyPDF2`
-- **Source**: [github.com/Vishnu3568/CV-Enhancer-ai](https://github.com/Vishnu3568/CV-Enhancer-ai)
 
 `[04]` **PrimeTrade Sentiment Analysis** — Quantitative data science pipeline analyzing Bitcoin trader performance vs. Fear & Greed sentiment regimes.
 - **Architecture**: Time-series Regimes $\rightarrow$ Behavioral Distribution Clustering $\rightarrow$ Statistical Hypothesis Testing $\rightarrow$ Predictive Modeling.
 - **Performance**: Statistically significant alpha identification across extreme market fear/greed volatility regimes.
 - **Stack**: `Python` | `Scikit-Learn` | `Pandas` | `Seaborn` | `Statsmodels`
-- **Source**: [github.com/Vishnu3568/primetrade-sentiment-analysis](https://github.com/Vishnu3568/primetrade-sentiment-analysis)
 
 ***
 
