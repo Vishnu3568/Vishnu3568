@@ -114,12 +114,6 @@ me.say_hi()
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-<br />
-
-<div align="center">
-  <img src="assets/stats_dashboard.svg" alt="DevOS Workspace Metrics & Tech Allocation" width="100%" />
-</div>
-
 ***
 
 ## > github_stats
