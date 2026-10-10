@@ -8,12 +8,6 @@
   🚀 <b>Aspiring AI Engineer</b> • 🤖 <b>LLMs &amp; AI Agents</b> • 🐍 <b>Python &amp; FastAPI</b> • 🧠 <b>RAG &amp; Vector Databases</b>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vishnu3568&label=PROFILE+VIEWS&style=flat-square&color=58A6FF&labelColor=161B22" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/Vishnu3568?label=FOLLOWERS&style=flat-square&color=A970FF&labelColor=161B22" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/Vishnu3568?label=STARS&style=flat-square&color=58A6FF&labelColor=161B22" alt="Stars" />
-</p>
-
 ***
 
 ## > whoami
