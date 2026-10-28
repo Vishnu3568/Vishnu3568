@@ -87,47 +87,46 @@ me.say_hi()
 <table width="100%">
   <thead>
     <tr>
-      <th width="50%" align="left">💻 Development, AI & QA</th>
-      <th width="50%" align="left">☁️ Data, Cloud & DevOps</th>
+      <th align="center">💻 Languages & QA</th>
+      <th align="center">🤖 AI & Machine Learning</th>
+      <th align="center">🗄️ Databases & Storage</th>
+      <th align="center">☁️ DevOps & Tools</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%" align="left" valign="top">
-        <p><b>Languages</b></p>
+      <td align="center" valign="top">
+        <p><b>Languages & Backend</b></p>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=py" alt="Languages" />
-        </a>
-        <br/><br/>
-        <p><b>Backend Development</b></p>
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=nodejs" alt="Backend Development" />
-        </a>
-        <br/><br/>
-        <p><b>AI & Machine Learning</b></p>
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,pandas,opencv,sklearn" alt="AI & Machine Learning" />
+          <img src="https://skillicons.dev/icons?i=py,nodejs" alt="Python & Node.js" />
         </a>
         <br/><br/>
         <p><b>Testing & QA</b></p>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=selenium" alt="Testing & QA" />
+          <img src="https://skillicons.dev/icons?i=selenium" alt="Selenium" />
         </a>
       </td>
-      <td width="50%" align="left" valign="top">
-        <p><b>Databases & Storage</b></p>
+      <td align="center" valign="top">
+        <p><b>Frameworks & Libraries</b></p>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" alt="Databases & Storage" />
+          <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,pandas,opencv,sklearn" alt="AI & ML" />
         </a>
-        <br/><br/>
+      </td>
+      <td align="center" valign="top">
+        <p><b>SQL & NoSQL</b></p>
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" alt="Databases" />
+        </a>
+      </td>
+      <td align="center" valign="top">
         <p><b>DevOps & Cloud</b></p>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=docker,aws,jenkins,gcp" alt="DevOps & Cloud" />
+          <img src="https://skillicons.dev/icons?i=docker,aws,jenkins,gcp" alt="DevOps" />
         </a>
         <br/><br/>
-        <p><b>Developer Tools & Version Control</b></p>
+        <p><b>Tools & Version Control</b></p>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=postman,git,github" alt="Developer Tools & Version Control" />
+          <img src="https://skillicons.dev/icons?i=postman,git,github" alt="Tools" />
         </a>
       </td>
     </tr>
