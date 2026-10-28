@@ -84,9 +84,52 @@ me.say_hi()
 
 ## > tech_stack
 
+**Languages**
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,nodejs,tensorflow,pytorch,pandas,opencv,sklearn,mongodb,mysql,postgres,docker,aws,jenkins,gcp,selenium,postman,git,github&perline=9" alt="tech_stack" />
+    <img src="https://skillicons.dev/icons?i=py" alt="Languages" />
+  </a>
+</p>
+
+**Backend Development**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs" alt="Backend Development" />
+  </a>
+</p>
+
+**AI & Machine Learning**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,pandas,opencv,sklearn" alt="AI & Machine Learning" />
+  </a>
+</p>
+
+**Databases & Storage**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" alt="Databases & Storage" />
+  </a>
+</p>
+
+**DevOps & Cloud**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,aws,jenkins,gcp" alt="DevOps & Cloud" />
+  </a>
+</p>
+
+**Testing & QA**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=selenium" alt="Testing & QA" />
+  </a>
+</p>
+
+**Developer Tools & Version Control**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postman,git,github" alt="Developer Tools & Version Control" />
   </a>
 </p>
 
